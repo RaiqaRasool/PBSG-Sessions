@@ -1,0 +1,8 @@
+services:
+  server:
+    build: .
+    stdin_open: true
+    tty: false
+    volumes:
+      - ./server.py:/app/server.py:ro
+      - ./project-status.md:/app/project-status.md

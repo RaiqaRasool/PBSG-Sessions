@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "27201243da4e2490",
+    "type": "split",
+    "children": [
+      {
+        "id": "77421c602ba5bd47",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a066a7d0bfa026c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11-rpc-rest-and-mcp.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "11-rpc-rest-and-mcp"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0450a9e6e3d173b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ad8085ebfa6a3c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a92a5703cb80541",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c2dd3a499ae691e2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8ca835f2d51ced91",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2bcbf33283f81fd1",
+    "type": "split",
+    "children": [
+      {
+        "id": "934be7c7a319898c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3662ccc35b8f87e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "11-rpc-rest-and-mcp.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 11-rpc-rest-and-mcp"
+            }
+          },
+          {
+            "id": "471bddeb133d7f9b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "11-rpc-rest-and-mcp.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 11-rpc-rest-and-mcp"
+            }
+          },
+          {
+            "id": "cf0f578a30a53080",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f4a2df55808ba0d9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "23bc667585a3a4cb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "11-rpc-rest-and-mcp.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 11-rpc-rest-and-mcp"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "a066a7d0bfa026c8",
+  "lastOpenFiles": [
+    "09-advanced-client-features.md",
+    "03-the-world-wide-web-and-http.md",
+    "02-distributed-computing-and-rpc.md",
+    "01-why-computers-communicate.md",
+    "manuscript.md",
+    "README.md",
+    "11-rpc-rest-and-mcp.md",
+    "00-title.md",
+    "10-complete-lifecycle.md",
+    "08-mcp-capabilities.md",
+    "07-mcp-architecture.md",
+    "06-why-mcp-was-born.md",
+    "05-the-client-changes.md",
+    "04-the-rest-revolution.md"
+  ]
+}

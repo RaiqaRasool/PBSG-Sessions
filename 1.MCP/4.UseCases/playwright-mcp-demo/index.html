@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Task Manager</title>
+  <style>
+    body { max-width: 40rem; margin: 3rem auto; padding: 0 1rem; font: 1rem/1.5 system-ui, sans-serif; color: #222; }
+    form, .filters, li { display: flex; gap: .5rem; align-items: center; }
+    input[type="text"] { flex: 1; padding: .5rem; }
+    button { padding: .5rem .75rem; cursor: pointer; }
+    .error { min-height: 1.5em; color: #b00020; }
+    ul { padding: 0; list-style: none; }
+    li { padding: .6rem 0; border-bottom: 1px solid #ddd; }
+    li span { flex: 1; }
+    li.completed span { color: #666; text-decoration: line-through; }
+    .filters button[aria-pressed="true"] { font-weight: bold; outline: 2px solid #555; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Task Manager</h1>
+
+    <form id="task-form" novalidate>
+      <label for="task-input">Task</label>
+      <input id="task-input" name="task" type="text">
+      <button type="submit">Add Task</button>
+    </form>
+    <p id="validation-message" class="error" role="alert" aria-live="polite"></p>
+
+    <nav class="filters" aria-label="Task filters">
+      <button type="button" data-filter="all" aria-pressed="true">All</button>
+      <button type="button" data-filter="active" aria-pressed="false">Active</button>
+      <button type="button" data-filter="completed" aria-pressed="false">Completed</button>
+    </nav>
+
+    <h2>Tasks</h2>
+    <ul id="task-list"></ul>
+  </main>
+
+  <script>
+    const tasks = [
+      { id: 1, text: 'Review project notes', completed: false },
+      { id: 2, text: 'Test the task filters', completed: true },
+      { id: 3, text: 'Plan the next task', completed: false }
+    ];
+    let nextId = 4;
+    let filter = 'all';
+
+    const form = document.querySelector('#task-form');
+    const input = document.querySelector('#task-input');
+    const message = document.querySelector('#validation-message');
+    const list = document.querySelector('#task-list');
+    const filterButtons = document.querySelectorAll('[data-filter]');
+
+    function render() {
+      list.replaceChildren();
+
+      for (const task of tasks.filter(task =>
+        filter === 'all' || (filter === 'completed' ? task.completed : !task.completed)
+      )) {
+        const item = document.createElement('li');
+        item.className = task.completed ? 'completed' : '';
+
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.checked = task.completed;
+        checkbox.setAttribute('aria-label', `Mark ${task.text} complete`);
+        checkbox.addEventListener('change', () => {
+          task.completed = checkbox.checked;
+          render();
+        });
+
+        const text = document.createElement('span');
+        text.textContent = task.text;
+
+        const deleteButton = document.createElement('button');
+        deleteButton.type = 'button';
+        deleteButton.textContent = 'Delete';
+        deleteButton.setAttribute('aria-label', `Delete ${task.text}`);
+        deleteButton.addEventListener('click', () => {
+          tasks.splice(tasks.indexOf(task), 1);
+          render();
+        });
+
+        item.append(checkbox, text, deleteButton);
+        list.append(item);
+      }
+    }
+
+    form.addEventListener('submit', event => {
+      event.preventDefault();
+      const text = input.value.trim();
+
+      if (!text) {
+        message.textContent = 'Task cannot be empty.';
+        input.focus();
+        return;
+      }
+
+      tasks.push({ id: nextId++, text, completed: false });
+      input.value = '';
+      message.textContent = '';
+      render();
+    });
+
+    for (const button of filterButtons) {
+      button.addEventListener('click', () => {
+        filter = button.dataset.filter;
+        for (const candidate of filterButtons) {
+          candidate.setAttribute('aria-pressed', String(candidate === button));
+        }
+        render();
+      });
+    }
+
+    render();
+  </script>
+</body>
+</html>

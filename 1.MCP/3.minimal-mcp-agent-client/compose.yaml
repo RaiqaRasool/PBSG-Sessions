@@ -1,0 +1,13 @@
+services:
+  agent:
+    build: .
+    stdin_open: true
+    tty: false
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-lm-studio}
+      OPENAI_BASE_URL: ${OPENAI_BASE_URL:-http://host.docker.internal:1234/v1}
+      LM_STUDIO_MODEL: ${LM_STUDIO_MODEL:-}
+    volumes:
+      - ./client.py:/app/client.py:ro
+      - ../minimal-mcp-teaching-server/server.py:/phoenix/server.py:ro
+      - ../minimal-mcp-teaching-server/project-status.md:/phoenix/project-status.md:ro
