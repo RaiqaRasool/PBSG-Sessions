@@ -13,6 +13,12 @@ The first session follows MCP from its historical context through a working teac
 - [Minimal MCP agent client](1.MCP/3.minimal-mcp-agent-client/README.md)
 - [Use cases and live-session material](1.MCP/4.UseCases/README.md)
 
+### 2. Agent Memory
+
+The second session covers short-term context, long-term memory engineering, episodic and semantic memory, and retrieval.
+
+- [Agent Memory study guide and interactive resources](2.Memory/README.md)
+
 ## Repository structure
 
 Each numbered top-level directory represents one study-group topic. Material within a topic should be ordered in the sequence used during the session.
