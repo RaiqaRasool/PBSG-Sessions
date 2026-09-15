@@ -13,5 +13,5 @@
 ## 3. Failure Circuit Breaker
 - If a test or build command fails 2 times sequentially:
   1. STOP modifying source files.
-  2. Revert the last changes using `git checkout .`.
-  3. Report the exact error message and ask the user for guidance.
+  2. Preserve the current working state and collect the relevant error output.
+  3. Report the error and ask the user for guidance before making further changes.

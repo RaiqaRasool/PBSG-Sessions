@@ -37,8 +37,8 @@
 - Never cat or read large files in full; search for specific lines, symbols, or function definitions.
 - **Failure Circuit Breaker:** If a test or build command fails 2 consecutive times on the same sub-task:
   1. STOP modifying source files.
-  2. Revert uncommitted changes using `git checkout .` to restore a clean baseline state.
-  3. Report the exact error message and ask the user for guidance before proceeding.
+  2. Preserve the current working state and collect the relevant error output.
+  3. Report the error and ask the user for guidance before proceeding.
 - Do not start background processes, servers, containers, deployments, or migrations unless explicitly authorized.
 
 ## 6. Commit-Ready Handoff

@@ -19,6 +19,12 @@ The second session covers short-term context, long-term memory engineering, epis
 
 - [Agent Memory study guide and interactive resources](2.Memory/README.md)
 
+### 3. Senior Vibe Coding
+
+The third session is an interactive exploration of loop engineering, agent instructions, durable project context, and possible directions for future practical sessions.
+
+- [Senior Vibe Coding interactive session guide](3.SeniorVibeCoding/README.md)
+
 ## Repository structure
 
 Each numbered top-level directory represents one study-group topic. Material within a topic should be ordered in the sequence used during the session.
