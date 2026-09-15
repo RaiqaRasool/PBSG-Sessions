@@ -6,10 +6,10 @@ This is an exploratory meetup session rather than a prepared lecture. The aim is
 
 Before the meetup:
 
-1. Open the introductory video and practical example in [Loop Engineering](LoopEngineering.md).
-2. Keep [Core Ideas](CoreIdeas.md) available as a concise reference.
-3. Be ready to open the example [AGENTS.md](COMMON_HANDY_AGENTS.md) and the documentation suggestions in [Project Documentation](VibeCodingDocsSuggested.md).
-4. Use [Resources](Resources.md) only when the group wants a deeper reference.
+1. Open the introductory video and practical example in [Loop Engineering](loop-engineering.md).
+2. Keep [Core Ideas](core-ideas.md) available as a concise reference.
+3. Be ready to open the example [agent rules](common-agent-rules.md) and the suggestions in [Project Documentation](project-documentation.md).
+4. Use [Resources](resources.md) only when the group wants a deeper reference.
 
 No slides or complete demonstration are required.
 
@@ -25,7 +25,7 @@ Opening question:
 
 ### 2. Start with loop engineering — 10–15 minutes
 
-Use the introductory material in [Loop Engineering](LoopEngineering.md). Discuss the difference between repeatedly prompting an agent and designing an environment in which it can pursue and verify a goal.
+Use the introductory material in [Loop Engineering](loop-engineering.md). Discuss the difference between repeatedly prompting an agent and designing an environment in which it can pursue and verify a goal.
 
 Ask the room to identify:
 
@@ -37,7 +37,7 @@ Ask the room to identify:
 
 ### 3. Examine a practical example — 15–20 minutes
 
-Open the practical Codex loop example linked from [Loop Engineering](LoopEngineering.md). Let participant questions determine how deeply to inspect it.
+Open the practical Codex loop example linked from [Loop Engineering](loop-engineering.md). Let participant questions determine how deeply to inspect it.
 
 Possible prompts for the discussion:
 
@@ -50,11 +50,11 @@ Possible prompts for the discussion:
 
 Ask the group which topic they want to explore next:
 
-1. **Agent rules:** Review [COMMON_HANDY_AGENTS.md](COMMON_HANDY_AGENTS.md) and decide which instructions are genuinely useful.
-2. **Project documentation:** Compare a minimal `AGENTS.md` plus `TASK_PLAN.md` approach with the suggestions in [Project Documentation](VibeCodingDocsSuggested.md).
-3. **Loop design:** Use [Core Ideas](CoreIdeas.md) to design a loop for a real participant workflow.
-4. **Agent architecture:** Discuss the outer planning loop and inner execution loop described in [Meta-Harness Notes](MetaHarness.md).
-5. **Further study:** Browse [Resources](Resources.md) and select a future deep-dive topic.
+1. **Agent rules:** Review [Common Agent Rules](common-agent-rules.md) and decide which instructions are genuinely useful.
+2. **Project documentation:** Compare a minimal `AGENTS.md` plus `TASK_PLAN.md` approach with the suggestions in [Project Documentation](project-documentation.md).
+3. **Loop design:** Use [Core Ideas](core-ideas.md) to design a loop for a real participant workflow.
+4. **Agent architecture:** Discuss the outer planning loop and inner execution loop described in [Meta-Harness Notes](meta-harness.md).
+5. **Further study:** Browse [Resources](resources.md) and select a future deep-dive topic.
 
 The branch is intentionally chosen during the session; there is no requirement to cover every file.
 
@@ -68,11 +68,11 @@ Record the selected topic, one concrete question the next session should answer,
 
 ## Material map
 
-- [Loop Engineering](LoopEngineering.md): starting links and practical examples
-- [Core Ideas](CoreIdeas.md): short definitions and discussion anchors
-- [Common Agent Rules](COMMON_HANDY_AGENTS.md): compact repository guardrails to critique
-- [Global Agent Rules](GLOBAL_AGENTS.md): a more complete workflow example
-- [Project Documentation](VibeCodingDocsSuggested.md): alternative documentation approaches
-- [Meta-Harness Notes](MetaHarness.md): outer planning loop and inner execution loop
-- [Quotes](Quotes.md): optional conversation starters
-- [Resources](Resources.md): extended reading roadmap
+- [Loop Engineering](loop-engineering.md): starting links and practical examples
+- [Core Ideas](core-ideas.md): short definitions and discussion anchors
+- [Common Agent Rules](common-agent-rules.md): compact repository guardrails to critique
+- [Global Agent Rules](global-agent-rules.md): a more complete workflow example
+- [Project Documentation](project-documentation.md): alternative documentation approaches
+- [Meta-Harness Notes](meta-harness.md): outer planning loop and inner execution loop
+- [Quotes](quotes.md): optional conversation starters
+- [Resources](resources.md): extended reading roadmap
