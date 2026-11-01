@@ -5,7 +5,7 @@ v0.6 is prepared for rehearsal, not validated for workshop release.
 ## Distribution
 
 - [ ] Review guide, instructions, and curated live reference choices.
-- [ ] Rebuild portfolio-starter.zip when participant-kit/ changes. It must contain only my-portfolio/ with the four participant files; no planning instructions or private résumés.
+- [ ] Rebuild portfolio-starter.zip when participant-kit/ changes. It must contain only my-portfolio/ with the three participant files (AGENTS.md, DESIGN-OPTIONS.md, START-HERE.md); no planning instructions or private résumés.
 - [ ] Publish reviewed materials to main in RaiqaRasool/PBSG-Sessions through the authorized release process. Local commits alone do not make download links live.
 - [ ] Open the workshop URL signed out, download the archive, and check extraction. The folder URL could not be fetched during drafting; public access remains unverified.
 
@@ -37,7 +37,7 @@ v0.6 is prepared for rehearsal, not validated for workshop release.
 
 Documentation review is complete. UI rehearsal, public-link access, conversion quality, generated-site quality, authentication, and deployment remain unverified.
 
-Local checks: archive integrity, its exact four-file allowlist, equality with source files, relative document links, and SVG XML passed. The browser screenshot tool timed out, so visual inspection of the schematic cards is still required.
+Local checks: archive integrity, its exact three-file allowlist, equality with source files, and relative document links passed. The obsolete schematic SVG was removed in favor of the live reference list.
 
 ## Firecrawl smoke check — November 1, 2026
 

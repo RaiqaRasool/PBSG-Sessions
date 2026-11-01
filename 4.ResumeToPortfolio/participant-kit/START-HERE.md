@@ -15,10 +15,10 @@ Rehearsal draft v0.6. Follow the steps in order. You choose the look and check y
 1. Click [Download the starter kit](https://github.com/RaiqaRasool/PBSG-Sessions/raw/refs/heads/main/4.ResumeToPortfolio/portfolio-starter.zip).
 2. Open your computer's **Downloads** folder.
 3. On a Mac, double-click `portfolio-starter.zip`. On Windows, right-click it, choose **Extract All**, then **Extract**.
-4. Open the extracted `my-portfolio` folder. Check that it contains `AGENTS.md`, `DESIGN-OPTIONS.md`, `design-menu.svg`, and `START-HERE.md`.
+4. Open the extracted `my-portfolio` folder. Check that it contains `AGENTS.md`, `DESIGN-OPTIONS.md`, and `START-HERE.md`.
 5. Move this folder to your Desktop. If that name already exists, rename the new folder `my-portfolio-test-2` instead of replacing your previous work.
 
-**Expected result:** a normal folder on your Desktop containing four files. Do not use the ZIP as your project. Do not download the whole sessions repository or copy its planning instructions.
+**Expected result:** a normal folder on your Desktop containing three files. Do not use the ZIP as your project. Do not download the whole sessions repository or copy its planning instructions.
 
 ## 3. Sign in
 

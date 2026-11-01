@@ -34,6 +34,4 @@ You do not need to fill every panel shown on a reference site. Two strong highli
 5. Default to a single page with résumé-derived sections, omit unsupported/empty sections, and do not inherit the reference's site map, content volume, or blog. Do not require a section-selection questionnaire. Accept participant requests to add, remove, or rename sections. Build an original composition using approved résumé content. Do not import the reference owner's identity, writing, logos, photos, testimonials, or unsupported achievements. Use appropriately reusable assets only.
 6. Compare the preview with the recorded qualities and fix the most visible mismatches. This is visual inspiration, not a source-code or exact-clone workflow.
 
-The included design-menu.svg is an optional earlier schematic exercise, not the primary selection menu and not an image of these websites.
-
 Firecrawl sources: [branding and screenshot formats](https://docs.firecrawl.dev/features/scrape#extract-brand-identity), [free-plan allowance](https://www.firecrawl.dev/pricing). A single-page plugin smoke check returned branding and a screenshot URL successfully; beginner onboarding and complete reference-to-preview fidelity still require rehearsal.
