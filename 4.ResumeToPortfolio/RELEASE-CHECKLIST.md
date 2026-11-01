@@ -1,10 +1,10 @@
 # Facilitator release checklist
 
-v0.3 is prepared for rehearsal, not validated for workshop release.
+v0.4 is prepared for rehearsal, not validated for workshop release.
 
 ## Distribution
 
-- [ ] Review guide, instructions, and schematic design cards.
+- [ ] Review guide, instructions, and curated live reference choices.
 - [ ] Rebuild portfolio-starter.zip when participant-kit/ changes. It must contain only my-portfolio/ with the four participant files; no planning instructions or private résumés.
 - [ ] Publish reviewed materials to main in RaiqaRasool/PBSG-Sessions through the authorized release process. Local commits alone do not make download links live.
 - [ ] Open the workshop URL signed out, download the archive, and check extraction. The folder URL could not be fetched during drafting; public access remains unverified.
@@ -21,7 +21,7 @@ v0.3 is prepared for rehearsal, not validated for workshop release.
 ## Result
 
 - [ ] Test Rasool's résumé in a separate project and record results in TEST-LOG.md.
-- [ ] Evaluate all four briefs/cards; refine if outputs look generic or too similar.
+- [ ] Visually inspect the curated original websites on desktop/mobile; check availability, variety, and implementation scope. Test one listed reference and one participant-supplied URL, plus the screenshot fallback.
 - [ ] Confirm source résumés stay local and only website assets are deployed from /docs.
 - [ ] Verify main + /docs publishing and relative assets at the real repository-subpath URL.
 - [ ] Confirm AGENTS.md stores real repository/settings/live URLs and verified status.

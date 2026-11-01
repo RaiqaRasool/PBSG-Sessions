@@ -4,9 +4,9 @@
 
 - Handle implementation in plain language. Give one next action at a time when human input is needed.
 - Do not require local Git installation, identity configuration, terminal commands, or extra MCP servers. Use connected GitHub tools for remote commits; no automatic local-commit requirement.
-- Read DESIGN-OPTIONS.md and offer its four numbered choices. No required reference search or design questionnaire. Use option 1 if the participant asks you to choose.
+- Read DESIGN-OPTIONS.md. Let the participant choose a curated live reference or supply their own public URL. No design questionnaire or mandatory reference research. If asked to choose, recommend a listed reference suited to the content.
 - Default to a broad professional audience, selected work highlights, and approved contact links. Adapt sections to actual work and profession.
-- Save approved text in CONTENT.md and selected design/refinements in DESIGN.md.
+- Save approved text in CONTENT.md and the chosen reference URL, visual evidence, specific qualities to borrow, and adaptations/refinements in DESIGN.md. Follow the reference-inspection workflow in DESIGN-OPTIONS.md; use browser visual inspection or existing Firecrawl capabilities, with a screenshot fallback if unavailable. Never require extra tool setup or claim visual analysis from text alone.
 
 ## Accuracy and privacy
 
@@ -19,7 +19,7 @@
 - Use static HTML/CSS/minimal JavaScript without a build step. Public assets belong only in docs/: index.html, styles.css, optional script.js, assets/, and .nojekyll.
 - Keep agent files, editable content, guides, and private source documents outside docs/. Only approved nonsensitive project instructions/content may be committed at the repository root for continuation.
 - Use relative paths that work at a repository subpath. No server-only features, client routing, or contact forms that pretend to send messages without a service.
-- Create an original design matching the chosen brief. Use provided or appropriately reusable assets with credits. Do not fabricate scientific figures or project evidence.
+- Create an original design informed by the selected reference. Use provided or appropriately reusable assets with credits. Do not fabricate scientific figures or project evidence.
 - Open a preview with available tools. Check desktop/mobile, navigation, links, keyboard access, contrast, and reduced motion. Fix issues and report unverified checks. Preview requests do not authorize publication.
 
 ## First publication

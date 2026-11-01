@@ -34,7 +34,7 @@ Build a usable personal portfolio from Rasool's own résumé, then use the teste
 - Prefer explicit update prompts over résumé watchers or automatic regeneration hooks.
 - Write participant instructions assuming no knowledge of GitHub, Pages, project folders, or agent files. Start with the workshop link, give numbered clicks and expected results, and include recovery steps.
 - Maintain participant-kit/ separately from facilitator instructions; package only participant files into portfolio-starter.zip. Never include private résumés.
-- Supply a fixed numbered design menu, with optional customization rather than required reference research.
+- Supply curated original website links as easy design choices and accept any public reference URL. AI inspects the visual design using available browser tools or existing Firecrawl capabilities; use a screenshot fallback when needed. No mandatory reference research or additional participant tool setup.
 - Store the repository write destination, verified live website URL, branch, folder, and publishing method in participant AGENTS.md. Update prompts must use that record without requesting URLs again.
 - Complete RELEASE-CHECKLIST.md before calling the kit ready for attendees. Local commits do not publish download links.
 - Participants should not need to install Git, configure a Git identity, initialize repositories, or run terminal commands. Use connected GitHub tools for remote commits and publishing where supported. Resolve missing capabilities during rehearsal rather than adding Git setup to the participant instructions.

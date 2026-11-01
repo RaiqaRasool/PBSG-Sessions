@@ -1,6 +1,6 @@
 # Make your own portfolio website
 
-Rehearsal draft v0.3. Follow the steps in order. You choose the look and check your information; AI handles the files. Keep this guide open beside the desktop app.
+Rehearsal draft v0.4. Follow the steps in order. You choose the look and check your information; AI handles the files. Keep this guide open beside the desktop app.
 
 ## 1. Open the workshop page
 
@@ -77,28 +77,25 @@ Use my résumé below, or the résumé Markdown file I just added, to draft my p
 I approve the website content and public contact links we reviewed. Save the approved version in CONTENT.md.
 ```
 
-## 7. Pick a look and preview
+## 7. Explore a reference and preview your site
 
-1. Open `design-menu.svg` from your folder in a browser, or [view the style cards here](design-menu.svg). They are schematic design references, not screenshots of finished portfolios.
-2. Pick a number. Every option can suit research, technical, or business work.
-
-| Number | Look | Personality |
-| --- | --- | --- |
-| **1** | Field Notes | Warm paper, ink blue, notebook-style notes |
-| **2** | The Magazine | Big editorial headlines, ivory and red, work as stories |
-| **3** | Color Studio | Bold cobalt and coral, playful blocks, expressive type |
-| **4** | Retro Desktop | Nostalgic computer windows, mint accents, clear navigation |
-
-3. Send this, replacing the number if needed. If unsure, choose **1**:
+1. Open [the reference list](DESIGN-OPTIONS.md).
+2. Click two or three websites and explore them. Pick the one whose appearance you like. You can also use a public website you found yourself; it does not have to belong to someone in your profession.
+3. Copy that website's address from your browser's address bar.
+4. Paste the prompt below into your portfolio chat, replacing the bracketed text with that address:
 
 ```text
-Build my portfolio using design option 1 from DESIGN-OPTIONS.md and my approved CONTENT.md. Follow AGENTS.md. Open a preview, check desktop and phone layouts, and fix issues. Do not publish yet.
+Use this website as the visual reference for my portfolio: [paste website address here]. Inspect its appearance and use my approved CONTENT.md for all personal content. Follow the reference workflow in DESIGN-OPTIONS.md and AGENTS.md. Briefly explain what you will borrow, then build an original portfolio, open a preview, and check desktop and phone layouts. Do not publish yet.
 ```
 
-**Expected result:** AI opens a working preview or gives a clickable preview link. You should not need to run commands. Request changes in ordinary language, for example:
+If you like one specific thing, optionally add a sentence such as “I like its typography and project layout, but want warmer colors.” You do not have to describe the design yourself: AI should inspect it. If the site cannot be inspected visually, AI will ask for a screenshot instead. The workshop does not require installing another tool.
+
+**Expected result:** AI records the reference in DESIGN.md and opens a preview or gives a clickable preview link. You should not need to run commands. For an unusually complex reference, such as a 3D game, AI should confirm a simpler interpretation before building.
+
+Request changes in ordinary language, for example:
 
 ```text
-Make the introduction shorter and my research more prominent. Keep the chosen look. Update the preview without publishing.
+Make the introduction shorter and my research more prominent. Keep the reference's overall feel. Update the preview without publishing.
 ```
 
 ## 8. Publish the approved website

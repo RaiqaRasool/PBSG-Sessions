@@ -12,7 +12,7 @@
 - Participants should not need local Git installation, identity configuration, or terminal commands. AI handles remote commits through connected GitHub tools; publishing capability gaps must be resolved in rehearsal.
 
 - Assume no prior knowledge of GitHub, Pages, project folders, or agent instructions. Supply numbered clicks from the workshop link, expected results, a starter download, and recovery steps.
-- Provide four ready-made design choices with schematic visual cards; reference research is optional.
+- Provide curated original website links and accept participant-supplied URLs. AI handles visual reference analysis; screenshot fallback if tools cannot inspect the site. No extra participant tooling.
 - Save repository and live website URLs and publishing settings in participant AGENTS.md; updates should not need those details from the user again.
 
 ## Proposed approach — not yet validated
@@ -40,4 +40,4 @@
 ## Rehearsal log
 No conversion, implementation, GitHub setup, or deployment has been tested yet.
 
-Participant instructions: participant-kit/START-HERE.md (v0.3, untested), linked from README.md and WORKSHOP.md. Record trials in TEST-LOG.md and complete RELEASE-CHECKLIST.md before release.
+Participant instructions: participant-kit/START-HERE.md (v0.4, untested), linked from README.md and WORKSHOP.md. Record trials in TEST-LOG.md and complete RELEASE-CHECKLIST.md before release.

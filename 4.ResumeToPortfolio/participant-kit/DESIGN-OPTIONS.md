@@ -1,42 +1,29 @@
-# Four portfolio personalities
+# Explore a portfolio, then choose its URL
 
-Choose from the [visual menu](design-menu.svg). These are schematic references, not finished templates. Each works for any profession; adapt the sections to the approved content.
+Open a few of these real websites. Pick one you like and paste its address into the build prompt. You can also bring any public website URL of your own. The reference supplies visual inspiration; your approved résumé supplies all personal facts.
 
-## 1 — Field Notes
+These are candidate references whose pages were fetched during drafting. Full desktop/mobile visual inspection and workshop build trials remain to be completed. Descriptions below explain what to explore, not a promise to reproduce the site exactly.
 
-- Curious, approachable notebook feel.
-- Paper #F6F1E7, ink #17324D, terracotta #A64C38.
-- Georgia-style serif headlines, system sans-serif body.
-- Large introduction, small margin-note sidebar on wide screens, numbered selected work, compact experience trail, contact links.
-- Ruled dividers and restrained sketch accents. Stack the sidebar on phones; upright readable body copy. Optional hover feedback only.
+| Explore | Why you might choose it |
+| --- | --- |
+| [Maggie Appleton](https://maggieappleton.com/) | A digital garden organizing essays, notes, and ideas; explore it for a research or writing-led personal site. |
+| [Nicky Case](https://ncase.me/) | A playful collection of things to play, read, and watch; explore it for making projects and explanations feel inviting. |
+| [Cassidy Williams](https://cassidoo.co/) | A personal introduction, interests, and writing; explore it for a friendly personal homepage. |
+| [Brittany Chiang](https://brittanychiang.com/) | About, experience, and selected work; explore it for a clear professional portfolio structure. |
+| [Josh W. Comeau](https://www.joshwcomeau.com/) | Articles, tutorials, and personal-site navigation; explore it for a teaching or knowledge-sharing portfolio. |
+| [Ram Maheshwari](https://www.rammaheshwari.com/) | Positioning, experience, collaborations, and contact; explore it for a business-facing personal site. |
 
-## 2 — The Magazine
+**Bonus playground:** [Bruno Simon](https://bruno-simon.com/) uses a driving-game world to explore his portfolio. It is inspiration for personality and interaction, not a promise of a complete 3D game during this workshop. If you select a complex reference, AI should explain what can be simplified and confirm with you before building.
 
-- Expressive, articulate editorial feel.
-- Ivory #FFFAF0, charcoal #202020, red #A9252B.
-- Bold Georgia-style headlines, system sans-serif body and captions.
-- Name masthead, oversized headline, featured work story, two-column secondary highlights on desktop, experience and contact footer.
-- Strong horizontal rules and issue-style labels. No invented press coverage or quotes. Simple underline transitions; no scroll hijacking.
+If you cannot decide, start by opening Maggie Appleton and Cassidy Williams and choose whichever appeals more. Your profession does not limit your visual choice.
 
-## 3 — Color Studio
+## AI reference workflow
 
-- Energetic, inventive, friendly.
-- Off-white #FFFDF7, cobalt #203BB5, coral #F28F79, charcoal #202020.
-- Heavy system sans-serif headings and clear body copy.
-- Bold introduction with a colored side panel, varied-size work tiles, straightforward experience list, prominent contact link.
-- Chunky outlines and geometric accents. Use dark text on coral; check contrast. Small hover shifts with reduced-motion support; no hover-only content.
+1. Inspect the selected URL in a rendered browser at desktop and phone widths where tools allow. Look at composition, typography, colors, spacing, hierarchy, and interactions. Markdown-only extraction does not establish those visual details.
+2. If Firecrawl is already available, its screenshot and branding extraction may assist. Do not require the participant to install it or acquire an API key. Use available browser tools instead where sufficient.
+3. If visual access fails, state that limitation and request a screenshot of the page/section the participant likes. Do not pretend extracted text is a visual inspection.
+4. Record the original URL, evidence inspected, three to five specific qualities to borrow, and adaptations in DESIGN.md. Briefly tell the participant the direction. Ask only if there is a material ambiguity or the requested interaction would substantially expand scope.
+5. Build an original composition using approved résumé content. Do not import the reference owner's identity, writing, logos, photos, testimonials, or unsupported achievements. Use appropriately reusable assets only.
+6. Compare the preview with the recorded qualities and fix the most visible mismatches. This is visual inspiration, not a source-code or exact-clone workflow.
 
-## 4 — Retro Desktop
-
-- Nostalgic, playful, technically curious.
-- Midnight #18232E, cream #F4F1E9, mint #B9E8C8, slate #34495A.
-- System monospace headings/labels and sans-serif body.
-- Static desktop-inspired frame, visible About/Work/Experience/Contact anchor links, window-like content panels stacked on phones.
-- Title bars and pixel-like borders. No full operating-system simulation, draggable windows, fake terminal, or hidden navigation. All content reachable by scrolling or keyboard.
-
-## Shared rules
-
-- Use real approved content. Portraits are optional; no generated fake portrait or fabricated project/scientific imagery.
-- No invented testimonials, badges, client logos, or achievements.
-- Keep mobile complete and readable. Respect reduced motion. External fonts and animation libraries are unnecessary.
-- Save the selected number and refinements in DESIGN.md.
+The included design-menu.svg is an optional earlier schematic exercise, not the primary selection menu and not an image of these websites.
