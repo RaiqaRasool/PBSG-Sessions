@@ -43,7 +43,7 @@ Quiet dividers, date/title alignment, restrained pill labels, optional subtle pa
 
 Turn skills or research areas into short labels. A single role and two highlights are enough; shorten the timeline rather than pad it.
 
-Keep one page with an introduction, supported selected work/research, relevant experience/education, and approved contact links. Omit empty sections and allow the participant to add/remove/rename sections in ordinary language. Do not inherit the source site's page count.
+Keep one page with an introduction and only useful sections supported by the chosen résumé. The résumé is factual input, not a section checklist: combine, rename, or omit headings as appropriate. Projects and contact are optional, and experience contributions need not be turned into projects. Follow AGENTS.md content-curation rules; allow ordinary-language section changes without asking for additional material. Do not inherit the source site's page count.
 
 ## Phone, motion, and accessibility — proposed behavior
 

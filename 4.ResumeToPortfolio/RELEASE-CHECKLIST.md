@@ -1,11 +1,11 @@
 # Facilitator release checklist
 
-v0.7 is prepared for rehearsal, not validated for workshop release.
+v0.8 is prepared for rehearsal, not validated for workshop release.
 
 ## Distribution
 
 - [ ] Review guide, instructions, and curated live reference choices.
-- [ ] Run `python3 scripts/package-starter.py` after participant-kit/ edits. It packages four participant guides/instructions plus references/README.md and eight prepared briefs (13 files total), using an explicit allowlist. No private résumé or facilitator files may be included.
+- [ ] Run `python3 scripts/package-starter.py` after participant-kit/ edits. It packages four participant guides/instructions, one fictional sample résumé, references/README.md, and eight prepared briefs (14 files total), using an explicit allowlist. No private résumé or facilitator files may be included.
 - [ ] Publish reviewed materials to main in RaiqaRasool/PBSG-Sessions through the authorized release process. Local commits alone do not make download links live.
 - [ ] Open the workshop URL signed out, download the archive, and check extraction. The folder URL could not be fetched during drafting; public access remains unverified.
 
@@ -21,6 +21,7 @@ v0.7 is prepared for rehearsal, not validated for workshop release.
 
 ## Result
 
+- [ ] Test the fictional sample path without supplying any extra content. Confirm no invented Projects, no résumé-only references/objective sections, a visible demo label, and no fake contact action. Also test the real-résumé path without sample facts leaking into it.
 - [ ] Test Rasool's résumé in a separate project and record results in TEST-LOG.md.
 - [ ] Review all eight prepared briefs and confirm observed/extracted evidence, personality interpretation, and proposed tokens/phone behavior are distinguished. Test one prepared build without reference-site access and one optional custom brief. Evaluate each prepared option before workshop release.
 - [ ] Confirm source résumés stay local and only website assets are deployed from /docs.
@@ -37,7 +38,7 @@ v0.7 is prepared for rehearsal, not validated for workshop release.
 
 Documentation review is complete. UI rehearsal, public-link access, conversion quality, generated-site quality, authentication, and deployment remain unverified.
 
-Local checks: archive integrity, the explicit 13-file participant allowlist, equality with source files, and relative document links passed. The obsolete schematic SVG was removed in favor of the live reference list.
+Local checks: archive integrity, the explicit 14-file participant allowlist, equality with source files, and relative document links passed. The obsolete schematic SVG was removed in favor of the live reference list.
 
 ## Firecrawl smoke check — November 1, 2026
 

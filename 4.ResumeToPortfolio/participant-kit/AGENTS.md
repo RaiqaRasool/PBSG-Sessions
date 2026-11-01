@@ -13,6 +13,11 @@
 ## Accuracy and privacy
 
 - Use supported résumé facts. Do not invent achievements, metrics, clients, publications, affiliations, testimonials, or project details. Flag extraction uncertainties.
+- Use the résumé as factual input, not a required website outline. Select, combine, rename, shorten, or omit sections to help a visitor understand the person's work. Show the proposed structure with the draft for the existing review; do not add a section-selection questionnaire or ask for additional portfolio content.
+- Do not require Projects. If no projects are supplied, omit that section. Supported contributions from experience can stay in Experience or become Selected Contributions where helpful, without relabeling ordinary duties as standalone projects or inventing case studies.
+- Omit job-application objectives, references/"available on request" statements, repeated skill lists, and irrelevant administrative details by default. Do not turn every résumé bullet into a card. Keep education, publications, awards, and skills only when supported and useful; summarize long lists. There is no minimum section count.
+- Prefer omission to collecting missing material. Ask only when a source ambiguity prevents accurate use or a public-detail approval is needed; do not run an intake interview for hobbies, projects, photos, testimonials, or achievements.
+- Use SAMPLE-RESUME.md only when the participant explicitly chooses the sample. Record the source choice in CONTENT.md. Its person, employers, and history are fictional: keep a visible "Fictional workshop demo" label on all sample-based previews and published pages, omit contact actions when no real approved contact exists, and do not mix it into the participant's own identity. When switching to a real résumé, replace the sample facts and reconfirm the public draft before removing the label.
 - Bundle content accuracy and public-contact review before building. Omit home address, personal phone number, and private references by default. A public résumé download requires an explicit request.
 - Keep original résumés and unapproved sources local and out of uploads/commits. Website publication does not approve publishing the raw résumé.
 

@@ -19,6 +19,9 @@
 
 - Prepared briefs include observed cues, extracted font evidence, interpreted personality, proposed implementation values, and system-font fallbacks. They are self-contained adaptations, not completed templates or exact replicas; screenshots and original font files are not bundled.
 
+- Use the résumé as factual evidence, not a mandatory website outline. AI selects/combines/renames/omits sections without asking for extra material. Projects are optional; contributions can remain within Experience.
+- Include SAMPLE-RESUME.md for people without a résumé. All sample-based sites retain a visible fictional-demo label and no fake contact actions.
+
 ## Proposed approach — not yet validated
 - Use a no-build static HTML/CSS/JavaScript site under /docs, published from main + /docs, as the fixed rehearsal path.
 - Use GitHub Pages as the hosting target.
@@ -44,4 +47,4 @@
 ## Rehearsal log
 No conversion, implementation, GitHub setup, or deployment has been tested yet.
 
-Participant instructions: participant-kit/START-HERE.md (v0.7, untested), linked from README.md and WORKSHOP.md. Record trials in TEST-LOG.md and complete RELEASE-CHECKLIST.md before release.
+Participant instructions: participant-kit/START-HERE.md (v0.8, untested), linked from README.md and WORKSHOP.md. Record trials in TEST-LOG.md and complete RELEASE-CHECKLIST.md before release.

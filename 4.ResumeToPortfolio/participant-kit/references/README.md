@@ -6,6 +6,8 @@ Each brief includes observed visual cues, extracted font evidence, an interprete
 
 These are text-based design briefs, not completed HTML templates or exact reproductions. Source screenshots and font files are not bundled. Source-font names are recorded; system fallbacks make the build independent of font downloads. Proposed palettes, dimensions, responsive rules, and motion are labeled as workshop choices. Check the generated website for contrast and readability.
 
+The résumé is evidence, not a required section list. Apply the content-curation rules in AGENTS.md before these design layouts: omit unsupported Projects and other categories, remove résumé-only administrative details, and do not ask for more material just to fill a layout. SAMPLE-RESUME.md is an optional fictional input, not content to blend into a real portfolio.
+
 ## AI workflow
 
 1. Resolve the chosen name, number, or listed URL using DESIGN-OPTIONS.md. Read only the corresponding brief plus CONTENT.md and AGENTS.md; there is no need to load every reference.

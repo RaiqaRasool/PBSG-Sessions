@@ -1,6 +1,6 @@
 # Make your own portfolio website
 
-Rehearsal draft v0.7. Follow the steps in order. You choose the look and check your information; AI handles the files. Keep this guide open beside the desktop app.
+Rehearsal draft v0.8. Follow the steps in order. You choose the look and check your information; AI handles the files. Keep this guide open beside the desktop app.
 
 ## 1. Open the workshop page
 
@@ -15,7 +15,7 @@ Rehearsal draft v0.7. Follow the steps in order. You choose the look and check y
 1. Click [Download the starter kit](https://github.com/RaiqaRasool/PBSG-Sessions/raw/refs/heads/main/4.ResumeToPortfolio/portfolio-starter.zip).
 2. Open your computer's **Downloads** folder.
 3. On a Mac, double-click `portfolio-starter.zip`. On Windows, right-click it, choose **Extract All**, then **Extract**.
-4. Open the extracted `my-portfolio` folder. Check that it contains `AGENTS.md`, `DESIGN-OPTIONS.md`, `START-HERE.md`, `OPTIONAL-REFERENCE.md`, and a `references` folder. You do not need to edit these files.
+4. Open the extracted `my-portfolio` folder. Check that it contains `AGENTS.md`, `DESIGN-OPTIONS.md`, `START-HERE.md`, `OPTIONAL-REFERENCE.md`, `SAMPLE-RESUME.md`, and a `references` folder. You do not need to edit these files.
 5. Move this folder to your Desktop. If that name already exists, rename the new folder `my-portfolio-test-2` instead of replacing your previous work.
 
 **Expected result:** a normal folder on your Desktop containing the starter instructions and prepared reference briefs. Do not use the ZIP as your project. Do not download the whole sessions repository or copy its planning instructions.
@@ -63,20 +63,28 @@ Read AGENTS.md in this project's primary folder. Confirm that you can find DESIG
 
 **Expected result:** AI confirms the starter files and identifies any connection problem before you begin. If it cannot find them, check that you selected the extracted folder, not the ZIP or its parent.
 
-## 6. Supply your résumé and check the draft
+## 6. Choose your own résumé or the sample, then check the draft
+
+**No résumé with you?** Use the included [fictional sample résumé](SAMPLE-RESUME.md). Send this instead of supplying your own text, then continue to the review below:
+
+```text
+Use SAMPLE-RESUME.md for my practice portfolio. Follow AGENTS.md. Choose useful website sections from its facts rather than copying its résumé headings. Do not add projects or ask for more content. Keep a visible Fictional workshop demo label, omit unsupported contact actions, and show me the draft. Do not build or publish yet.
+```
+
+**Using your own résumé:**
 
 1. Open your résumé and copy its text.
 2. Paste the prompt below into the chat, then paste your résumé text underneath it.
 3. If copying scrambles the text, open [PDF to Markdown](https://cloudconvert.com/pdf-to-md), click **Select File**, choose your PDF, start conversion, and download the result. Move the downloaded `.md` file into your portfolio folder and give AI its filename instead. This alternative uploads your résumé to another service; pasted text avoids that extra upload.
 
 ```text
-Use my résumé below, or the résumé Markdown file I just added, to draft my portfolio content. Follow AGENTS.md. Show the proposed website text and list the contact details or other personal information that would become public. Do not build or publish yet.
+Use my résumé below, or the résumé Markdown file I just added, to draft my portfolio content. Do not use SAMPLE-RESUME.md. Follow AGENTS.md. Choose useful website sections from the facts rather than copying every résumé heading. Omit unsupported categories; do not require projects or ask for additional content. Show the proposed website text and list the contact details or other personal information that would become public. Do not build or publish yet.
 ```
 
-**Expected result:** a readable draft suited to your work. The default is one page: a short introduction, selected work or research when supported, relevant experience/education, and approved contact links. Empty sections are omitted; you do not need a blog, testimonials, or extra projects. You can ask to add, remove, or rename a section at any time. Check names, dates, achievements, and public links. Tell AI any corrections. When satisfied, send:
+**Expected result:** a readable draft suited to your work. The default is one page with a short introduction and only useful, supported sections. AI may combine or rename experience, summarize long lists, or omit résumé-only items such as references and job-application objectives. Projects, a blog, testimonials, publications, and contact links are not mandatory. If your résumé has no projects, the website does not need a Projects section. You can ask to add, remove, or rename a section at any time. Check names, dates, achievements, and public links. Tell AI any corrections. When satisfied, send:
 
 ```text
-I approve the website content and public contact links we reviewed. Save the approved version in CONTENT.md.
+I approve the proposed website structure, content, and any public contact links we reviewed. Save the approved version and source choice in CONTENT.md. If using the sample, keep its fictional-demo label.
 ```
 
 ## 7. Choose a prepared personality and preview your site

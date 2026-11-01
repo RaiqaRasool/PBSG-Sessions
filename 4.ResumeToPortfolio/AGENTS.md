@@ -14,6 +14,8 @@ Build a usable personal portfolio from Rasool's own résumé, then use the teste
 - Do not invent achievements, numbers, publications, affiliations, testimonials, or project details. Ask when important information is missing.
 - Confirm which contact details and résumé material should be public. Keep the original résumé and unapproved personal source material out of commits and deployment by default.
 - Adapt sections to the person's work and audience; do not force a software-developer portfolio structure.
+- The résumé supplies facts, not a mandatory website outline. Select/merge/rename/omit sections without a new intake questionnaire. Do not require Projects or additional content; omit unsupported categories and unnecessary job-application details.
+- Include a clearly fictional sample résumé for participants without their own. Use it only on explicit selection; sample-based sites must remain visibly labeled as fictional demos and never mix sample facts with a real participant's identity.
 
 ## Planning checkpoints
 - In this planning repository, commit relevant documentation after each meaningful, reviewed change using a concise Conventional Commit. Inspect the repository and staged diff first; stage explicit paths only and leave unrelated work and private résumé sources out.

@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 KIT = ROOT / "participant-kit"
 FILES = [
     "AGENTS.md", "DESIGN-OPTIONS.md", "START-HERE.md", "OPTIONAL-REFERENCE.md",
+    "SAMPLE-RESUME.md",
     "references/README.md", "references/sean-halpin.md",
     "references/brittany-chiang.md", "references/cassidy-williams.md",
     "references/maggie-appleton.md", "references/nicky-case.md",
