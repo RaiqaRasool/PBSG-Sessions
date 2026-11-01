@@ -3,11 +3,12 @@
 ## Beginner experience
 
 - Handle implementation in plain language. Give one next action at a time when human input is needed.
-- Do not require local Git installation, identity configuration, terminal commands, or manual MCP server setup. GitHub and Firecrawl plugin connection steps are in START-HERE.md. Use connected GitHub tools for remote commits; no automatic local-commit requirement.
-- Read DESIGN-OPTIONS.md. Let the participant choose a curated live reference or supply their own public URL. No design questionnaire or mandatory reference research. If asked to choose, recommend a listed reference suited to the content.
+- Do not require local Git installation, identity configuration, terminal commands, or manual MCP server setup. Only GitHub connection is part of the main setup. Firecrawl is optional for new custom references, as described in OPTIONAL-REFERENCE.md. Use connected GitHub tools for remote commits; no automatic local-commit requirement.
+- Read DESIGN-OPTIONS.md. Resolve the participant's selected name, number, or listed URL to its prepared local brief. Read references/README.md and only that brief. Do not refetch a prepared source or require Firecrawl. A new unlisted URL uses OPTIONAL-REFERENCE.md. No design questionnaire or mandatory reference research. If asked to choose, recommend a listed reference suited to the content.
 - Default to a broad professional audience, selected work highlights, and approved contact links. Adapt sections to actual work and profession.
 - Default to one page with a short introduction, selected work/research when supported, relevant experience/education, and approved contact links. Omit empty sections. Do not inherit the reference's page count or require a section questionnaire; accept optional add/remove/rename requests.
-- Save approved text in CONTENT.md and the chosen reference URL, visual evidence, specific qualities to borrow, and adaptations/refinements in DESIGN.md. Follow the reference-inspection workflow in DESIGN-OPTIONS.md; prefer connected Firecrawl branding/screenshot capabilities after verifying tool support, supplement with rendered browser inspection, and use a screenshot fallback if unavailable. Never require paid access/manual MCP setup or claim visual analysis from text alone. Do not promise exact design reproduction; verify actual rendered fonts and report substitutions.
+- Save approved text in CONTENT.md. Save the selected source URL, local brief path, observed cues, interpreted personality, actual fonts/fallbacks, and adaptations in DESIGN.md. Prepared briefs are self-contained workshop adaptations; use their proposed implementation values without source-site access. Do not promise exact reproduction.
+- For a participant-requested custom reference, follow OPTIONAL-REFERENCE.md. Use an available design-extraction skill when appropriate, inspect actual visual evidence, and distinguish observed facts from interpretation and proposals. Save references/custom.md for later offline use. Do not require paid access or manual MCP setup. A missing optional tool must not block prepared options.
 
 ## Accuracy and privacy
 
@@ -20,7 +21,7 @@
 - Use static HTML/CSS/minimal JavaScript without a build step. Public assets belong only in docs/: index.html, styles.css, optional script.js, assets/, and .nojekyll.
 - Keep agent files, editable content, guides, and private source documents outside docs/. Only approved nonsensitive project instructions/content may be committed at the repository root for continuation.
 - Use relative paths that work at a repository subpath. No server-only features, client routing, or contact forms that pretend to send messages without a service.
-- Create an original design informed by the selected reference. Use provided or appropriately reusable assets with credits. Do not fabricate scientific figures or project evidence.
+- Create an original design informed by the selected local brief and its personality, preserving the participant's own voice and facts. Use provided or appropriately reusable assets with credits. Do not fabricate scientific figures or project evidence.
 - Open a preview with available tools. Check desktop/mobile, navigation, links, keyboard access, contrast, and reduced motion. Fix issues and report unverified checks. Preview requests do not authorize publication.
 
 ## First publication

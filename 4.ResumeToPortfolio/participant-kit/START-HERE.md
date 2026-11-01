@@ -1,6 +1,6 @@
 # Make your own portfolio website
 
-Rehearsal draft v0.6. Follow the steps in order. You choose the look and check your information; AI handles the files. Keep this guide open beside the desktop app.
+Rehearsal draft v0.7. Follow the steps in order. You choose the look and check your information; AI handles the files. Keep this guide open beside the desktop app.
 
 ## 1. Open the workshop page
 
@@ -15,10 +15,10 @@ Rehearsal draft v0.6. Follow the steps in order. You choose the look and check y
 1. Click [Download the starter kit](https://github.com/RaiqaRasool/PBSG-Sessions/raw/refs/heads/main/4.ResumeToPortfolio/portfolio-starter.zip).
 2. Open your computer's **Downloads** folder.
 3. On a Mac, double-click `portfolio-starter.zip`. On Windows, right-click it, choose **Extract All**, then **Extract**.
-4. Open the extracted `my-portfolio` folder. Check that it contains `AGENTS.md`, `DESIGN-OPTIONS.md`, and `START-HERE.md`.
+4. Open the extracted `my-portfolio` folder. Check that it contains `AGENTS.md`, `DESIGN-OPTIONS.md`, `START-HERE.md`, `OPTIONAL-REFERENCE.md`, and a `references` folder. You do not need to edit these files.
 5. Move this folder to your Desktop. If that name already exists, rename the new folder `my-portfolio-test-2` instead of replacing your previous work.
 
-**Expected result:** a normal folder on your Desktop containing three files. Do not use the ZIP as your project. Do not download the whole sessions repository or copy its planning instructions.
+**Expected result:** a normal folder on your Desktop containing the starter instructions and prepared reference briefs. Do not use the ZIP as your project. Do not download the whole sessions repository or copy its planning instructions.
 
 ## 3. Sign in
 
@@ -46,16 +46,7 @@ Rehearsal draft v0.6. Follow the steps in order. You choose the look and check y
 
 **Expected result:** GitHub is installed. If the controls look different, ask the facilitator; do not install a separate MCP server or put a token in the chat.
 
-### Connect the design-reading tool: Firecrawl
-
-1. Stay in **Plugins** and search for **Firecrawl**.
-2. Open its details and select the install control.
-3. Follow its connection prompts and complete any account sign-in in the connection interface. Do not paste credentials into chat. Do not select a paid plan for this workshop.
-4. Start a new Codex chat after installation so its tools can be available.
-
-Firecrawl helps AI read the reference site's fonts, colors, and spacing and obtain a screenshot. Its public free plan currently lists 1,000 monthly credits with no card required; plugin-specific access and supported outputs must still be checked in rehearsal. [Free plan](https://www.firecrawl.dev/pricing)
-
-**Expected result:** GitHub and Firecrawl appear installed. If Firecrawl is unavailable or asks for unexpected payment/setup, ask the facilitator. You can still proceed using the browser/screenshot fallback; do not spend the session debugging the connection.
+**No Firecrawl setup is needed.** Prepared local design and personality briefs are included. The optional [custom reference guide](OPTIONAL-REFERENCE.md) is only for people who want to prepare another style later.
 
 ## 5. Open your portfolio folder
 
@@ -67,7 +58,7 @@ Firecrawl helps AI read the reference site's fonts, colors, and spacing and obta
 6. Copy and send:
 
 ```text
-Read AGENTS.md in this project's primary folder. Confirm that you can find DESIGN-OPTIONS.md and create files here. Check whether the connected GitHub and Firecrawl tools are available, including whether Firecrawl exposes screenshots and branding extraction. Report any missing capability without claiming it is available. Do not build or publish yet. If anything is missing, give me one next action to fix it without using a terminal or setting up Git.
+Read AGENTS.md in this project's primary folder. Confirm that you can find DESIGN-OPTIONS.md and the prepared files in references/, and create files here. Check whether the connected GitHub tools are available. Do not ask me to connect Firecrawl or inspect reference sites: the prepared options are self-contained. Do not build or publish yet. If anything is missing, give me one next action to fix it without using a terminal or setting up Git.
 ```
 
 **Expected result:** AI confirms the starter files and identifies any connection problem before you begin. If it cannot find them, check that you selected the extracted folder, not the ZIP or its parent.
@@ -88,26 +79,26 @@ Use my résumé below, or the résumé Markdown file I just added, to draft my p
 I approve the website content and public contact links we reviewed. Save the approved version in CONTENT.md.
 ```
 
-## 7. Explore a reference and preview your site
+## 7. Choose a prepared personality and preview your site
 
-1. Open [the reference list](DESIGN-OPTIONS.md). Each link explains the look you could borrow and how it could present your own résumé. If unsure, use one of the three quick starting suggestions.
-2. These links are for **design and personality only**. You do not need their amount of content, career achievements, or all their pages. A short résumé is enough for a focused one-page portfolio. Click two or three websites and explore them. Pick the one whose appearance you like. You can also use a public website you found yourself; it does not have to belong to someone in your profession.
-3. Copy that website's address from your browser's address bar.
-4. Paste the prompt below into your portfolio chat, replacing the bracketed text with that address:
-
-```text
-Use this website as the visual reference for my portfolio: [paste website address here]. Use connected Firecrawl branding and screenshot capabilities where supported, supplemented by browser inspection, to inspect its appearance. Use my approved CONTENT.md for all personal content and keep the one-page résumé-based section defaults. Do not copy the reference's page count or create content to fill its layout. Follow the reference workflow in DESIGN-OPTIONS.md and AGENTS.md. Briefly explain what you will borrow, then build an original portfolio, open a preview, and check desktop and phone layouts. Do not publish yet.
-```
-
-If you like one specific thing, optionally add a sentence such as “I like its typography and project layout, but want warmer colors.” You do not have to describe the design yourself: AI should inspect it. If the site cannot be inspected visually, AI will ask for a screenshot instead. No additional tools beyond the setup above are required.
-
-**Expected result:** AI records the reference in DESIGN.md and opens a preview or gives a clickable preview link. You should not need to run commands. For an unusually complex reference, such as a 3D game, AI should confirm a simpler interpretation before building.
-
-Request changes in ordinary language, for example:
+1. Open [the prepared reference menu](DESIGN-OPTIONS.md). Each choice explains its look and how it could present your résumé. If unsure, start with Seán, Brittany, or Cassidy.
+2. Optionally click the original website links to explore them. You are borrowing **design and personality only**, not their career achievements, content volume, or page count. The saved files work even if you do not visit those sites.
+3. Pick a name or number from the menu. You do not need to find fonts, take screenshots, edit a file, or install Firecrawl.
+4. Send the prompt below. Replace “Seán Halpin” with your choice, or keep it for the soft, expressive option:
 
 ```text
-Make the introduction shorter and my research more prominent. Keep the reference's overall feel. Update the preview without publishing.
+Build my portfolio using the prepared Seán Halpin option in DESIGN-OPTIONS.md. Read its local reference brief and my approved CONTENT.md. Follow AGENTS.md and keep the one-page defaults. Save the design and personality choices in DESIGN.md, then open and check a preview at desktop and phone widths. Use the supplied brief without fetching the reference website or requiring Firecrawl. Do not publish yet.
 ```
+
+**Expected result:** AI uses the matching local brief, records the choices in DESIGN.md, and opens a working preview or gives a clickable preview link. The website should express the chosen personality using your approved content. You should not need a new connection or a terminal command. If it asks for Firecrawl, say: “Use the prepared local brief in references/.”
+
+Ask for changes in ordinary language, for example:
+
+```text
+Make the introduction shorter and my research more prominent. Keep the chosen personality. Update the preview without publishing.
+```
+
+**Want your own reference instead?** Follow [OPTIONAL-REFERENCE.md](OPTIONAL-REFERENCE.md). It explains how to create a reusable local brief from your URL and a screenshot, with Firecrawl as an optional way to extract more styling evidence. You can do this after completing the first build.
 
 ## 8. Publish the approved website
 

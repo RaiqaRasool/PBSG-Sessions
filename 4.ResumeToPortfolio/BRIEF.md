@@ -12,10 +12,12 @@
 - Participants should not need local Git installation, identity configuration, or terminal commands. AI handles remote commits through connected GitHub tools; publishing capability gaps must be resolved in rehearsal.
 
 - Assume no prior knowledge of GitHub, Pages, project folders, or agent instructions. Supply numbered clicks from the workshop link, expected results, a starter download, and recovery steps.
-- Provide curated original website links and accept participant-supplied URLs. AI handles visual reference analysis. Include Firecrawl plugin connection in pre-session setup, subject to testing its free access and exposed branding/screenshot capabilities. Browser/screenshot fallback if unavailable.
+- Provide eight prepared local design/personality briefs with optional original-site exploration. Participants select a name or number; no Firecrawl setup or reference-site access is required. A separate optional guide covers preparing a custom URL with screenshot evidence or Firecrawl.
 - Save repository and live website URLs and publishing settings in participant AGENTS.md; updates should not need those details from the user again.
 
 - Default to a focused one-page site with résumé-derived sections and no required section questionnaire. References supply personality rather than content volume, achievements, or page count. Optional section changes remain available.
+
+- Prepared briefs include observed cues, extracted font evidence, interpreted personality, proposed implementation values, and system-font fallbacks. They are self-contained adaptations, not completed templates or exact replicas; screenshots and original font files are not bundled.
 
 ## Proposed approach — not yet validated
 - Use a no-build static HTML/CSS/JavaScript site under /docs, published from main + /docs, as the fixed rehearsal path.
@@ -42,4 +44,4 @@
 ## Rehearsal log
 No conversion, implementation, GitHub setup, or deployment has been tested yet.
 
-Participant instructions: participant-kit/START-HERE.md (v0.6, untested), linked from README.md and WORKSHOP.md. Record trials in TEST-LOG.md and complete RELEASE-CHECKLIST.md before release.
+Participant instructions: participant-kit/START-HERE.md (v0.7, untested), linked from README.md and WORKSHOP.md. Record trials in TEST-LOG.md and complete RELEASE-CHECKLIST.md before release.

@@ -1,11 +1,11 @@
 # Facilitator release checklist
 
-v0.6 is prepared for rehearsal, not validated for workshop release.
+v0.7 is prepared for rehearsal, not validated for workshop release.
 
 ## Distribution
 
 - [ ] Review guide, instructions, and curated live reference choices.
-- [ ] Rebuild portfolio-starter.zip when participant-kit/ changes. It must contain only my-portfolio/ with the three participant files (AGENTS.md, DESIGN-OPTIONS.md, START-HERE.md); no planning instructions or private résumés.
+- [ ] Run `python3 scripts/package-starter.py` after participant-kit/ edits. It packages four participant guides/instructions plus references/README.md and eight prepared briefs (13 files total), using an explicit allowlist. No private résumé or facilitator files may be included.
 - [ ] Publish reviewed materials to main in RaiqaRasool/PBSG-Sessions through the authorized release process. Local commits alone do not make download links live.
 - [ ] Open the workshop URL signed out, download the archive, and check extraction. The folder URL could not be fetched during drafting; public access remains unverified.
 
@@ -14,7 +14,7 @@ v0.6 is prepared for rehearsal, not validated for workshop release.
 - [ ] Record the exact supported desktop app version/platform and account requirements. Current OpenAI docs describe Codex in the ChatGPT desktop app; do not mix its UI with an older standalone app.
 - [ ] Follow the guide on clean Mac/Windows accounts, or explicitly limit supported platforms.
 - [ ] Verify project-creation clicks and add screenshots. Docs establish Projects, Edit project, Add folder, and Make primary; the clean-screen path still needs rehearsal.
-- [ ] Verify Firecrawl plugin connection on a free account, actual branding/screenshot outputs, credit usage, and browser/screenshot fallback. Do not assume API features are exposed in the plugin or promise exact font matching.
+- [ ] Verify the main journey works without Firecrawl or source-site access. Separately test the optional custom-reference guide using a screenshot and, if desired, connected Firecrawl. Do not assume API features are exposed in the plugin or promise exact font matching.
 - [ ] Verify GitHub plugin connection and new-repository access screens. Add screenshots where helpful.
 - [ ] Confirm no local Git or terminal use is required for content, preview, publication, or updates.
 - [ ] Test available repository-creation and Pages-configuration capabilities. Choose one rehearsed class path, including fixed browser steps if needed, rather than making attendees choose a deployment strategy.
@@ -22,7 +22,7 @@ v0.6 is prepared for rehearsal, not validated for workshop release.
 ## Result
 
 - [ ] Test Rasool's résumé in a separate project and record results in TEST-LOG.md.
-- [ ] Visually inspect the curated original websites on desktop/mobile; check availability, variety, and implementation scope. Test one listed reference and one participant-supplied URL, plus the screenshot fallback.
+- [ ] Review all eight prepared briefs and confirm observed/extracted evidence, personality interpretation, and proposed tokens/phone behavior are distinguished. Test one prepared build without reference-site access and one optional custom brief. Evaluate each prepared option before workshop release.
 - [ ] Confirm source résumés stay local and only website assets are deployed from /docs.
 - [ ] Verify main + /docs publishing and relative assets at the real repository-subpath URL.
 - [ ] Confirm AGENTS.md stores real repository/settings/live URLs and verified status.
@@ -37,7 +37,7 @@ v0.6 is prepared for rehearsal, not validated for workshop release.
 
 Documentation review is complete. UI rehearsal, public-link access, conversion quality, generated-site quality, authentication, and deployment remain unverified.
 
-Local checks: archive integrity, its exact three-file allowlist, equality with source files, and relative document links passed. The obsolete schematic SVG was removed in favor of the live reference list.
+Local checks: archive integrity, the explicit 13-file participant allowlist, equality with source files, and relative document links passed. The obsolete schematic SVG was removed in favor of the live reference list.
 
 ## Firecrawl smoke check — November 1, 2026
 
@@ -48,3 +48,7 @@ The plugin became available during drafting. A live single-page request to https
 Visually inspected desktop opening views in the in-app browser for Seán Halpin (seanhalpin.design redirects to seanhalpin.xyz), Lynn Fisher, Maggie Appleton, Brittany Chiang, Nicky Case, Cassidy Williams, Josh W. Comeau, and Ram Maheshwari. Added Seán and Lynn to broaden the existing list and annotated every reference with observed cues plus proposed résumé adaptations. These are proposed design transfers, not implemented templates. Initial captures sometimes caught entrance transitions; Brittany's settled view was checked separately. Mobile, hover, scroll behavior, and deeper page layouts remain unverified. Rauno Freiberg was also fetched as a candidate but not added; its initial browser capture caught a transition and did not establish the complete layout.
 
 Firecrawl branding for the new candidates was not sufficient alone: inferred audience labels were unreliable and the browser's active theme differed from some extracted color-scheme metadata. On reference selection, inspect screenshot pixels and check the active theme before adopting tokens. A returned screenshot URL alone is not a visual review.
+
+## Prepared-reference change — November 1, 2026
+
+Eight local briefs now supply observed desktop cues, sourced font information, interpreted personality, proposed build tokens/layout/responsive rules, and system-font fallbacks. Original screenshots and font files are not bundled, and these are not exact replicas. Existing browser visual observations are reused. Additional single-page branding extractions were retrieved for Brittany, Maggie, Nicky, Josh, and Ram; some raw font-stack and color metadata conflicted with rendered views, so those conflicts are noted rather than treated as exact values. Prepared builds, actual font fallbacks, mobile usability, and the optional screenshot-only workflow still require rehearsal. Firecrawl is no longer part of participant prerequisites.

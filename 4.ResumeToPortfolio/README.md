@@ -2,11 +2,13 @@
 
 Give AI your résumé, choose a look, review the result, and publish a personal website. No coding, Git installation, or terminal commands are required by the planned workflow.
 
-**Rehearsal draft v0.6:** the complete setup and publishing journey is not yet tested. Facilitator: complete [the release checklist](RELEASE-CHECKLIST.md) before sharing this page.
+**Rehearsal draft v0.7:** the complete setup and publishing journey is not yet tested. Facilitator: complete [the release checklist](RELEASE-CHECKLIST.md) before sharing this page.
 
 ## Start here
 
-Open [the step-by-step guide](participant-kit/START-HERE.md). Follow it from the top and keep it open beside your AI app. It includes a starter download, account setup, curated live website references (or your own URL), and prompts to copy.
+Open [the step-by-step guide](participant-kit/START-HERE.md). Follow it from the top and keep it open beside your AI app. It includes a starter download, account setup, eight prepared design/personality choices, an optional custom-reference guide, and prompts to copy.
+
+The prepared choices need no Firecrawl setup. Codex reads the supplied local briefs; original website links are optional inspiration.
 
 ## What the names mean
 
