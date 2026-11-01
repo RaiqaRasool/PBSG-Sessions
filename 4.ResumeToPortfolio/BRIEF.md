@@ -11,8 +11,12 @@
 - Test the participant-facing instructions in a separate chat and iterate here using observed results.
 - Participants should not need local Git installation, identity configuration, or terminal commands. AI handles remote commits through connected GitHub tools; publishing capability gaps must be resolved in rehearsal.
 
+- Assume no prior knowledge of GitHub, Pages, project folders, or agent instructions. Supply numbered clicks from the workshop link, expected results, a starter download, and recovery steps.
+- Provide four ready-made design choices with schematic visual cards; reference research is optional.
+- Save repository and live website URLs and publishing settings in participant AGENTS.md; updates should not need those details from the user again.
+
 ## Proposed approach — not yet validated
-- Start with a simple static website using HTML, CSS, and JavaScript; reassess after selecting the design.
+- Use a no-build static HTML/CSS/JavaScript site under /docs, published from main + /docs, as the fixed rehearsal path.
 - Use GitHub Pages as the hosting target.
 - Use the available GitHub integration where sufficient; test repository creation and Pages configuration separately from file updates.
 - CloudConvert PDF-to-Markdown is an optional extraction route; copying résumé text is an alternative. No MarkItDown MCP setup is required for the planned workshop.
@@ -20,7 +24,7 @@
 - Rea is optional exploration, not a workshop prerequisite.
 
 ## Inputs still needed
-- Résumé or CV.
+- Résumé content review (RaiqaRasool_CV_BNL.md is present locally and remains uncommitted).
 - Optional audience or visitor-action preference; otherwise use the shared default.
 - Public contact details, links, and any information to omit.
 - Visual preferences and reference examples; these can be chosen after reviewing the résumé.
@@ -36,4 +40,4 @@
 ## Rehearsal log
 No conversion, implementation, GitHub setup, or deployment has been tested yet.
 
-Participant instructions: WORKSHOP.md (v0.2, untested). Record each trial in TEST-LOG.md.
+Participant instructions: participant-kit/START-HERE.md (v0.3, untested), linked from README.md and WORKSHOP.md. Record trials in TEST-LOG.md and complete RELEASE-CHECKLIST.md before release.

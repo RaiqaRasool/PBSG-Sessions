@@ -32,4 +32,9 @@ Build a usable personal portfolio from Rasool's own résumé, then use the teste
 - Record actual setup requirements and problems encountered during the practice run in BRIEF.md.
 - Do not promise authentication-only publishing until repository setup, Pages configuration, and a subsequent update have been tested.
 - Prefer explicit update prompts over résumé watchers or automatic regeneration hooks.
+- Write participant instructions assuming no knowledge of GitHub, Pages, project folders, or agent files. Start with the workshop link, give numbered clicks and expected results, and include recovery steps.
+- Maintain participant-kit/ separately from facilitator instructions; package only participant files into portfolio-starter.zip. Never include private résumés.
+- Supply a fixed numbered design menu, with optional customization rather than required reference research.
+- Store the repository write destination, verified live website URL, branch, folder, and publishing method in participant AGENTS.md. Update prompts must use that record without requesting URLs again.
+- Complete RELEASE-CHECKLIST.md before calling the kit ready for attendees. Local commits do not publish download links.
 - Participants should not need to install Git, configure a Git identity, initialize repositories, or run terminal commands. Use connected GitHub tools for remote commits and publishing where supported. Resolve missing capabilities during rehearsal rather than adding Git setup to the participant instructions.
