@@ -1,6 +1,6 @@
 # Workshop walkthrough
 
-Version 0.5 — beginner-first rehearsal draft.
+Version 0.6 — beginner-first rehearsal draft.
 
 The participant guide is [participant-kit/START-HERE.md](participant-kit/START-HERE.md), also included in the starter download. Maintain that file as the single source of participant instructions.
 

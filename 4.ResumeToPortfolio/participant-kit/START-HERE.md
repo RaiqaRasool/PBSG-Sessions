@@ -1,6 +1,6 @@
 # Make your own portfolio website
 
-Rehearsal draft v0.5. Follow the steps in order. You choose the look and check your information; AI handles the files. Keep this guide open beside the desktop app.
+Rehearsal draft v0.6. Follow the steps in order. You choose the look and check your information; AI handles the files. Keep this guide open beside the desktop app.
 
 ## 1. Open the workshop page
 
@@ -90,7 +90,7 @@ I approve the website content and public contact links we reviewed. Save the app
 
 ## 7. Explore a reference and preview your site
 
-1. Open [the reference list](DESIGN-OPTIONS.md).
+1. Open [the reference list](DESIGN-OPTIONS.md). Each link explains the look you could borrow and how it could present your own résumé. If unsure, use one of the three quick starting suggestions.
 2. These links are for **design and personality only**. You do not need their amount of content, career achievements, or all their pages. A short résumé is enough for a focused one-page portfolio. Click two or three websites and explore them. Pick the one whose appearance you like. You can also use a public website you found yourself; it does not have to belong to someone in your profession.
 3. Copy that website's address from your browser's address bar.
 4. Paste the prompt below into your portfolio chat, replacing the bracketed text with that address:

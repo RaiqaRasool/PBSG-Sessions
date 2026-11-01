@@ -1,6 +1,6 @@
 # Facilitator release checklist
 
-v0.5 is prepared for rehearsal, not validated for workshop release.
+v0.6 is prepared for rehearsal, not validated for workshop release.
 
 ## Distribution
 
@@ -42,3 +42,9 @@ Local checks: archive integrity, its exact four-file allowlist, equality with so
 ## Firecrawl smoke check — November 1, 2026
 
 The plugin became available during drafting. A live single-page request to https://cassidoo.co/ with branding and screenshot formats returned HTTP 200, a screenshot URL, font family iA Writer Mono, heading/body sizes, colors, and spacing. Metadata reported one credit. Overall branding confidence was approximately 0.46, so inferred personality/audience labels must not be treated as exact facts. The screenshot was returned but not visually reviewed in this check. Free-account onboarding, mobile capture, repeated extraction, font reuse availability, and generated-site fidelity still need rehearsal.
+
+## Reference-menu review — November 1, 2026
+
+Visually inspected desktop opening views in the in-app browser for Seán Halpin (seanhalpin.design redirects to seanhalpin.xyz), Lynn Fisher, Maggie Appleton, Brittany Chiang, Nicky Case, Cassidy Williams, Josh W. Comeau, and Ram Maheshwari. Added Seán and Lynn to broaden the existing list and annotated every reference with observed cues plus proposed résumé adaptations. These are proposed design transfers, not implemented templates. Initial captures sometimes caught entrance transitions; Brittany's settled view was checked separately. Mobile, hover, scroll behavior, and deeper page layouts remain unverified. Rauno Freiberg was also fetched as a candidate but not added; its initial browser capture caught a transition and did not establish the complete layout.
+
+Firecrawl branding for the new candidates was not sufficient alone: inferred audience labels were unreliable and the browser's active theme differed from some extracted color-scheme metadata. On reference selection, inspect screenshot pixels and check the active theme before adopting tokens. A returned screenshot URL alone is not a visual review.

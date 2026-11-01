@@ -4,20 +4,26 @@ Open a few of these real websites. Pick one you like and paste its address into 
 
 **Choose the look, not the size of someone else's career.** You do not need as much content, a blog, a publication archive, or all the pages shown on these sites. AI will adapt the personality to your own résumé and a focused one-page portfolio. You can add or remove sections later with one sentence.
 
-These are candidate references whose pages were fetched during drafting. Full desktop/mobile visual inspection and workshop build trials remain to be completed. Descriptions below explain what to explore, not a promise to reproduce the site exactly.
+## What choosing each reference could bring to your site
 
-| Explore | Why you might choose it |
-| --- | --- |
-| [Maggie Appleton](https://maggieappleton.com/) | A digital garden organizing essays, notes, and ideas; explore it for a research or writing-led personal site. |
-| [Nicky Case](https://ncase.me/) | A playful collection of things to play, read, and watch; explore it for making projects and explanations feel inviting. |
-| [Cassidy Williams](https://cassidoo.co/) | A personal introduction, interests, and writing; explore it for a friendly personal homepage. |
-| [Brittany Chiang](https://brittanychiang.com/) | About, experience, and selected work; explore it for a clear professional portfolio structure. |
-| [Josh W. Comeau](https://www.joshwcomeau.com/) | Articles, tutorials, and personal-site navigation; explore it for a teaching or knowledge-sharing portfolio. |
-| [Ram Maheshwari](https://www.rammaheshwari.com/) | Positioning, experience, collaborations, and contact; explore it for a business-facing personal site. |
+These are suggested adaptations of observed homepage styling, not promises to copy a whole website. Desktop opening views were visually checked on November 1, 2026. Themes can vary, and mobile layouts, deeper pages, motion, and the final implementation still need checking when you select a reference.
 
-**Bonus playground:** [Bruno Simon](https://bruno-simon.com/) uses a driving-game world to explore his portfolio. It is inspiration for personality and interaction, not a promise of a complete 3D game during this workshop. If you select a complex reference, AI should explain what can be simplified and confirm with you before building.
+| Open the reference | Design qualities you could borrow | How your own résumé could be presented |
+| --- | --- | --- |
+| [Seán Halpin](https://www.seanhalpin.xyz/) | Oversized expressive headings, soft pastel color fields, rounded project panels, generous breathing room. | A welcoming name-and-role introduction followed by a few selected-work panels. Research topics, contributions, or business initiatives can replace design projects. No large image library required. |
+| [Brittany Chiang](https://brittanychiang.com/) | Dark navy, restrained accents, clean sans-serif type, a clear identity/navigation column beside readable content on desktop. | Your name and introduction stay prominent while visitors explore a compact experience timeline and selected work. Skills or research areas can become small labels. A short career history works too. |
+| [Cassidy Williams](https://cassidoo.co/) | Compact reading width, monospace typography, simple navigation, an informal personal-homepage feel. | A short introduction, relevant experience, a few highlights, and contact links. Replace the site's post feed with résumé highlights; a blog, newsletter, or portrait is optional. |
+| [Maggie Appleton](https://maggieappleton.com/) | Large serif introduction, editorial hierarchy, spacious text, a thoughtful digital-garden identity. | Introduce the questions or problems you work on, then group selected research, contributions, or interests into readable highlights. No essay collection or publication archive required. |
+| [Nicky Case](https://ncase.me/) | Friendly direct headings, outlined containers, red link accents, visually grouped project previews. | Make work easy to explore through a small set of highlights with plain-language explanations. Use only categories you actually need; no games, videos, or large project collection required. |
+| [Lynn Fisher](https://lynnandtonic.com/) | A striking name treatment and book-like navigation with dotted leaders and Roman-numeral labels; the inspected view used red on a dark background. | Give a short portfolio the personality of a book: numbered About, Work/Research, Experience, and Contact sections. Keep these as links within one page rather than creating an archive or extra pages. |
+| [Josh W. Comeau](https://www.joshwcomeau.com/) | Scenic decorative header, readable article-style blocks, colorful accents, topic labels. | Present research or work highlights as short explainers: a title, a question or problem, and a concise contribution. Use optional topic labels without building a publishing platform, courses, or a newsletter. |
+| [Ram Maheshwari](https://www.rammaheshwari.com/) | A large serif positioning statement, light background, lavender accents, obvious navigation and contact action. | Lead with what you do and who it helps, followed by experience and selected contributions. Omit audience counters, client logos, and testimonials unless you supply real approved material. Use approved contact links rather than an unsupported form. |
 
-If you cannot decide, start by opening Maggie Appleton and Cassidy Williams and choose whichever appeals more. Your profession does not limit your visual choice.
+**Want a quick starting point?** Try Seán for soft and expressive, Brittany for structured and professional, or Cassidy for compact and personal. You can select any style regardless of your profession. You can also paste a different public URL.
+
+**Bonus playground — [Bruno Simon](https://bruno-simon.com/):** a driving-game world makes the portfolio itself an experience. A workshop adaptation could borrow its sense of exploration and playful section reveals while keeping a normal, readable one-page site. A complete 3D driving game is a separate scope decision. Its text and controls were reviewed earlier; full interaction and mobile testing remain outstanding.
+
+You do not need to fill every panel shown on a reference site. Two strong highlights can be enough. If you want, add one sentence such as “Use Seán's soft colors, but keep my page as compact as Cassidy's.” Start with one main reference to keep the first build predictable; mixing details is optional later.
 
 ## AI reference workflow
 

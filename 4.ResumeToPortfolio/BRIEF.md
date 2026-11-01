@@ -42,4 +42,4 @@
 ## Rehearsal log
 No conversion, implementation, GitHub setup, or deployment has been tested yet.
 
-Participant instructions: participant-kit/START-HERE.md (v0.5, untested), linked from README.md and WORKSHOP.md. Record trials in TEST-LOG.md and complete RELEASE-CHECKLIST.md before release.
+Participant instructions: participant-kit/START-HERE.md (v0.6, untested), linked from README.md and WORKSHOP.md. Record trials in TEST-LOG.md and complete RELEASE-CHECKLIST.md before release.
