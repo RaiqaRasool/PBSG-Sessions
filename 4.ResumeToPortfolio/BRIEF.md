@@ -12,8 +12,10 @@
 - Participants should not need local Git installation, identity configuration, or terminal commands. AI handles remote commits through connected GitHub tools; publishing capability gaps must be resolved in rehearsal.
 
 - Assume no prior knowledge of GitHub, Pages, project folders, or agent instructions. Supply numbered clicks from the workshop link, expected results, a starter download, and recovery steps.
-- Provide curated original website links and accept participant-supplied URLs. AI handles visual reference analysis; screenshot fallback if tools cannot inspect the site. No extra participant tooling.
+- Provide curated original website links and accept participant-supplied URLs. AI handles visual reference analysis. Include Firecrawl plugin connection in pre-session setup, subject to testing its free access and exposed branding/screenshot capabilities. Browser/screenshot fallback if unavailable.
 - Save repository and live website URLs and publishing settings in participant AGENTS.md; updates should not need those details from the user again.
+
+- Default to a focused one-page site with résumé-derived sections and no required section questionnaire. References supply personality rather than content volume, achievements, or page count. Optional section changes remain available.
 
 ## Proposed approach — not yet validated
 - Use a no-build static HTML/CSS/JavaScript site under /docs, published from main + /docs, as the fixed rehearsal path.
@@ -40,4 +42,4 @@
 ## Rehearsal log
 No conversion, implementation, GitHub setup, or deployment has been tested yet.
 
-Participant instructions: participant-kit/START-HERE.md (v0.4, untested), linked from README.md and WORKSHOP.md. Record trials in TEST-LOG.md and complete RELEASE-CHECKLIST.md before release.
+Participant instructions: participant-kit/START-HERE.md (v0.5, untested), linked from README.md and WORKSHOP.md. Record trials in TEST-LOG.md and complete RELEASE-CHECKLIST.md before release.

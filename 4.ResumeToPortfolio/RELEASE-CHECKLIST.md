@@ -1,6 +1,6 @@
 # Facilitator release checklist
 
-v0.4 is prepared for rehearsal, not validated for workshop release.
+v0.5 is prepared for rehearsal, not validated for workshop release.
 
 ## Distribution
 
@@ -14,6 +14,7 @@ v0.4 is prepared for rehearsal, not validated for workshop release.
 - [ ] Record the exact supported desktop app version/platform and account requirements. Current OpenAI docs describe Codex in the ChatGPT desktop app; do not mix its UI with an older standalone app.
 - [ ] Follow the guide on clean Mac/Windows accounts, or explicitly limit supported platforms.
 - [ ] Verify project-creation clicks and add screenshots. Docs establish Projects, Edit project, Add folder, and Make primary; the clean-screen path still needs rehearsal.
+- [ ] Verify Firecrawl plugin connection on a free account, actual branding/screenshot outputs, credit usage, and browser/screenshot fallback. Do not assume API features are exposed in the plugin or promise exact font matching.
 - [ ] Verify GitHub plugin connection and new-repository access screens. Add screenshots where helpful.
 - [ ] Confirm no local Git or terminal use is required for content, preview, publication, or updates.
 - [ ] Test available repository-creation and Pages-configuration capabilities. Choose one rehearsed class path, including fixed browser steps if needed, rather than making attendees choose a deployment strategy.
@@ -37,3 +38,7 @@ v0.4 is prepared for rehearsal, not validated for workshop release.
 Documentation review is complete. UI rehearsal, public-link access, conversion quality, generated-site quality, authentication, and deployment remain unverified.
 
 Local checks: archive integrity, its exact four-file allowlist, equality with source files, relative document links, and SVG XML passed. The browser screenshot tool timed out, so visual inspection of the schematic cards is still required.
+
+## Firecrawl smoke check — November 1, 2026
+
+The plugin became available during drafting. A live single-page request to https://cassidoo.co/ with branding and screenshot formats returned HTTP 200, a screenshot URL, font family iA Writer Mono, heading/body sizes, colors, and spacing. Metadata reported one credit. Overall branding confidence was approximately 0.46, so inferred personality/audience labels must not be treated as exact facts. The screenshot was returned but not visually reviewed in this check. Free-account onboarding, mobile capture, repeated extraction, font reuse availability, and generated-site fidelity still need rehearsal.

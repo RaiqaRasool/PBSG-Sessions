@@ -2,7 +2,7 @@
 
 Give AI your résumé, choose a look, review the result, and publish a personal website. No coding, Git installation, or terminal commands are required by the planned workflow.
 
-**Rehearsal draft v0.4:** the complete setup and publishing journey is not yet tested. Facilitator: complete [the release checklist](RELEASE-CHECKLIST.md) before sharing this page.
+**Rehearsal draft v0.5:** the complete setup and publishing journey is not yet tested. Facilitator: complete [the release checklist](RELEASE-CHECKLIST.md) before sharing this page.
 
 ## Start here
 
