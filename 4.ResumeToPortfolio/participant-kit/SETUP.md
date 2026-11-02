@@ -2,6 +2,8 @@
 
 You need the desktop app with Codex access and its GitHub plugin. No local Git, terminal, Firecrawl, or Playwright MCP installation is required. Keep START-HERE.md open as the main guide.
 
+The kit also includes CLAUDE.md and GEMINI.md, which point to the shared AGENTS.md. These let alternative assistants use the same project instructions; this setup guide and its GitHub connection steps remain specific to Codex. Other tools' integrations and preview capabilities need their own check.
+
 ## Existing guides to keep beside you
 
 | Task | Resource | What it provides |

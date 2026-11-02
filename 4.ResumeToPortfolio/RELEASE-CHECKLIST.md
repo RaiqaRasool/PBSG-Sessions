@@ -5,7 +5,7 @@ v0.9 is prepared for rehearsal, not validated for workshop release.
 ## Distribution
 
 - [ ] Review guide, instructions, and curated live reference choices.
-- [ ] Run `python3 scripts/package-starter.py` after participant-kit/ edits. It packages five participant guides/instructions (including SETUP.md), one fictional sample résumé, references/README.md, and eight prepared briefs (15 files total), using an explicit allowlist. No private résumé or facilitator files may be included.
+- [ ] Run `python3 scripts/package-starter.py` after participant-kit/ edits. It packages five participant guides/instructions (including SETUP.md), two instruction pointers (CLAUDE.md and GEMINI.md), one fictional sample résumé, references/README.md, and eight prepared briefs (17 files total), using an explicit allowlist. No private résumé or facilitator files may be included.
 - [ ] Publish reviewed materials to main in RaiqaRasool/PBSG-Sessions through the authorized release process. Local commits alone do not make download links live.
 - [ ] Open the workshop URL signed out, download the archive, and check extraction. The folder URL could not be fetched during drafting; public access remains unverified.
 
@@ -38,7 +38,7 @@ v0.9 is prepared for rehearsal, not validated for workshop release.
 
 Documentation review and the first user-reported rehearsal are recorded. The revised v0.9 setup, conversion, personality-copy review, native/file preview, app access, root publication, and staged updates require retesting. Do not mark the workshop ready based only on documentation checks.
 
-Local checks: archive integrity, the explicit 15-file participant allowlist, equality with source files, and relative document links passed. The obsolete schematic SVG was removed in favor of the live reference list.
+Local checks: archive integrity, the explicit 17-file participant allowlist, equality with source files, and relative document links passed. The obsolete schematic SVG was removed in favor of the live reference list.
 
 ## Firecrawl smoke check — November 1, 2026
 
