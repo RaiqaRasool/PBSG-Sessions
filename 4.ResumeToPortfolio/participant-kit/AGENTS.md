@@ -1,62 +1,85 @@
 # Portfolio assistant instructions
 
-## Beginner experience
+## Beginner workflow and authority
 
-- Handle implementation in plain language. Give one next action at a time when human input is needed.
-- Do not require local Git installation, identity configuration, terminal commands, or manual MCP server setup. Only GitHub connection is part of the main setup. Firecrawl is optional for new custom references, as described in OPTIONAL-REFERENCE.md. Use connected GitHub tools for remote commits; no automatic local-commit requirement.
-- Read DESIGN-OPTIONS.md. Resolve the participant's selected name, number, or listed URL to its prepared local brief. Read references/README.md and only that brief. Do not refetch a prepared source or require Firecrawl. A new unlisted URL uses OPTIONAL-REFERENCE.md. No design questionnaire or mandatory reference research. If asked to choose, recommend a listed reference suited to the content.
-- Default to a broad professional audience, selected work highlights, and approved contact links. Adapt sections to actual work and profession.
-- Default to one page with a short introduction, selected work/research when supported, relevant experience/education, and approved contact links. Omit empty sections. Do not inherit the reference's page count or require a section questionnaire; accept optional add/remove/rename requests.
-- Save approved text in CONTENT.md. Save the selected source URL, local brief path, observed cues, interpreted personality, actual fonts/fallbacks, and adaptations in DESIGN.md. Prepared briefs are self-contained workshop adaptations; use their proposed implementation values without source-site access. Do not promise exact reproduction.
-- For a participant-requested custom reference, follow OPTIONAL-REFERENCE.md. Use an available design-extraction skill when appropriate, inspect actual visual evidence, and distinguish observed facts from interpretation and proposals. Save references/custom.md for later offline use. Do not require paid access or manual MCP setup. A missing optional tool must not block prepared options.
+- Handle technical work in plain language. Before a missing-capability handoff, inspect capabilities, explain the exact limitation, then give one concrete next action with a direct link.
+- No participant Git installation, identity setup, terminal commands, manual MCP setup, Firecrawl, Playwright MCP, or browser-control permission is required. Use connected GitHub tools for remote reads/commits/status. Do not silently switch to browser automation or an authenticated CLI when a tool is missing or denied.
+- Read START-HERE.md and follow its phase boundaries: factual draft → personality-shaped copy/plan approval → build/preview → publication; updates use proposed diff → content approval → local preview → publication approval. Drafting or preview approval alone never authorizes uploading/publishing.
+- Initial real résumé input is MY-RESUME.md. Do not require file-mention autocomplete or ask participants to repeat source content in chat. If the file is absent or unreadable, give a concrete file-placement/conversion correction. Use SAMPLE-RESUME.md only on explicit selection.
+- Resolve a name/number/listed URL via DESIGN-OPTIONS.md. Read references/README.md and only the chosen local brief. No reference-site fetch is required. Custom references use OPTIONAL-REFERENCE.md.
+- Keep durable content, design, source choice, approval state, and publishing records local so a new project chat can continue.
 
-## Accuracy and privacy
+## Content: factual, selective, skimmable, and personal
 
-- Use supported résumé facts. Do not invent achievements, metrics, clients, publications, affiliations, testimonials, or project details. Flag extraction uncertainties.
-- Use the résumé as factual input, not a required website outline. Select, combine, rename, shorten, or omit sections to help a visitor understand the person's work. Show the proposed structure with the draft for the existing review; do not add a section-selection questionnaire or ask for additional portfolio content.
-- Do not require Projects. If no projects are supplied, omit that section. Supported contributions from experience can stay in Experience or become Selected Contributions where helpful, without relabeling ordinary duties as standalone projects or inventing case studies.
-- Omit job-application objectives, references/"available on request" statements, repeated skill lists, and irrelevant administrative details by default. Do not turn every résumé bullet into a card. Keep education, publications, awards, and skills only when supported and useful; summarize long lists. There is no minimum section count.
-- Prefer omission to collecting missing material. Ask only when a source ambiguity prevents accurate use or a public-detail approval is needed; do not run an intake interview for hobbies, projects, photos, testimonials, or achievements.
-- Use SAMPLE-RESUME.md only when the participant explicitly chooses the sample. Record the source choice in CONTENT.md. Its person, employers, and history are fictional: keep a visible "Fictional workshop demo" label on all sample-based previews and published pages, omit contact actions when no real approved contact exists, and do not mix it into the participant's own identity. When switching to a real résumé, replace the sample facts and reconfirm the public draft before removing the label.
-- Bundle content accuracy and public-contact review before building. Omit home address, personal phone number, and private references by default. A public résumé download requires an explicit request.
-- Keep original résumés and unapproved sources local and out of uploads/commits. Website publication does not approve publishing the raw résumé.
+- The résumé is evidence, not the website outline. Select, combine, rename, shorten, or omit headings to serve a broad professional reader. No extra intake questionnaire or request for projects, photos, hobbies, testimonials, or additional achievements to fill a layout.
+- No mandatory Projects section. Experience contributions may stay in Experience or become Selected Contributions without pretending they are independent projects. Omit unsupported/empty categories, application objectives, references statements, repeated skills, and irrelevant administrative details. Summarize long lists; there is no minimum section count.
+- Draft a short meaningful headline, a one- or two-sentence introduction, concise selected highlights where useful, and compact experience/education. Prefer specific supported contributions over generic adjectives. Usually keep an experience entry to one or two useful bullets and a highlight to a short summary, not copied résumé paragraphs. Length limits are guidance, not permission to distort facts.
+- After personality selection, revise CONTENT.md before building: headline, section labels, rhythm, summaries, and calls to action should reflect the brief's interpreted personality while preserving the participant's voice and level of formality. Show a few before/after examples for review. Do not copy the original owner's catchphrases, identity, achievements, or writing.
+- Do not invent metrics, affiliations, publications, clients, testimonials, case-study detail, opinions, or project evidence. Flag source ambiguities. Prefer omission to interviewing for missing material.
+- Review the final website copy, structure, and public details together before implementation. Default to omitting home address, personal phone, private references, and résumé downloads. Keep source résumés out of all uploads/commits.
+- Record whether input is MY-RESUME.md or the fictional sample in CONTENT.md. Sample-based previews/published sites must retain a visible "Fictional workshop demo" label, with no fake contact actions or mixing sample facts into a real identity. Switching to a real résumé requires a new factual/public-copy review.
 
-## Build and preview
+## Design and readable implementation
 
-- Use static HTML/CSS/minimal JavaScript without a build step. Public assets belong only in docs/: index.html, styles.css, optional script.js, assets/, and .nojekyll.
-- Keep agent files, editable content, guides, and private source documents outside docs/. Only approved nonsensitive project instructions/content may be committed at the repository root for continuation.
-- Use relative paths that work at a repository subpath. No server-only features, client routing, or contact forms that pretend to send messages without a service.
-- Create an original design informed by the selected local brief and its personality, preserving the participant's own voice and facts. Use provided or appropriately reusable assets with credits. Do not fabricate scientific figures or project evidence.
-- Open a preview with available tools. Check desktop/mobile, navigation, links, keyboard access, contrast, and reduced motion. Fix issues and report unverified checks. Preview requests do not authorize publication.
+- In DESIGN.md record the chosen local brief/source, 3–5 defining visual cues, 2–3 interpreted personality traits, actual font/fallback choice, signature detail, and intended treatment of the participant's content. Prepared briefs distinguish observations from interpretations and proposed implementation values; do not promise exact replicas.
+- Apply the personality to both copy and visual hierarchy. If the first build looks generic, correct the major cue mismatches before handoff, not just the accent color.
+- Keep static HTML, CSS, and small classic JavaScript files, with no build step, required server, fetch-based local content loading, or module imports that break file:// previews. No fake sending forms or server-only features.
+- For new projects, keep public files under local site/: index.html, styles.css, optional script.js, assets/, and .nojekyll. This folder is the upload allowlist, not necessarily the remote folder name. Preserve an existing confirmed local layout until an explicit migration is agreed.
+- Write normal formatted files with indentation, meaningful names, separated styles/scripts, and short useful section comments. Do not minify or place an entire page/style sheet on one line.
+- Use readable phone layouts. Keep a short visible/wrapping anchor menu if it fits. When links genuinely need a hamburger/toggle, include a labeled button, aria-expanded/aria-controls, keyboard operation, visible focus, appropriate close behavior, and a usable no-JavaScript fallback. Do not hide essential navigation behind hover.
+- Images/portraits are optional and must be supplied or appropriately reusable with required attribution. Do not fabricate scientific figures or borrow the reference owner's personal assets.
+- Use relative asset paths so the site also works at a project subpath. Honor reduced motion and sufficient text contrast.
 
-## First publication
+## Preview and checks without extra setup
 
-1. On an explicit publish request, inspect connected GitHub capabilities and identity. Prefer the participant's personal account; do not guess the owner.
-2. Use a new repository named my-portfolio unless specified otherwise. If it exists, confirm the destination or suggest my-portfolio-workshop; do not overwrite an existing site.
-3. Create it with authorized connected tools/browser when possible. Otherwise give the creation link and START-HERE.md step 8A instructions one action at a time. Check access before uploading. Never ask for tokens in chat.
-4. Inspect the destination, preserve unrelated work, and make relevant remote commits through connected tools. Place public assets in docs/, including docs/.nojekyll. Batch a complete site update into one commit when tools permit.
-5. Configure Pages to deploy from main and /docs using available authorized tools/browser. Otherwise provide the exact Settings → Pages link and step 8B clicks. Do not fall back to participant CLI setup.
-6. Fill in the publishing record below as real values become known. The repository URL is where files are written; the Pages URL is where the result is viewed. They are not interchangeable.
-7. Check deployment status and open the real live URL to verify this version's content, links, and assets. Report pending/failed states honestly; do not mark an expected URL as verified.
-8. Save the record locally in this AGENTS.md. If approved instructions are uploaded, keep them at repository root outside docs/ without private source information. Give a clickable live link.
+- Prefer an available native/in-app preview. Otherwise provide the absolute local site/index.html link and let the participant open/double-click it in their browser; this static site must not require a server.
+- Do not create a hosted Site or move work to Sites merely to get a preview. Sites is an optional separate workflow requiring an explicit choice; GitHub Pages remains the publication target.
+- Do not require Playwright MCP/browser installation or user browser automation access. If existing authorized rendering tools are available, use them proportionally; otherwise perform available structural checks and give concise manual desktop/phone instructions. Report which visual checks could not be performed.
+- Compare the rendered preview with the recorded visual cues and personality traits. Fix clear mismatches, test navigation/links/keyboard access/phone layout where tools allow, and record the actual checks. Never equate static inspection with a visual comparison.
 
-## Later updates
+## GitHub destination and access preflight
 
-- Read the publishing record first. Do not request saved URLs again. Inspect remote files before editing; preserve remote work and sync relevant changes locally.
-- Keep editable content consistent with the website and preserve approved design unless asked to redesign. Ask about ambiguous new résumé facts or newly introduced personal contact details.
-- On an update-and-publish request, commit relevant changes remotely and publish using the saved destination. Never silently create a replacement repository or change publishing settings because an update fails.
-- Verify deployment and the saved live URL, then update the last-verified record.
-- If the record is incomplete, recover from existing remote instructions or the connected account where possible. Confirm ambiguous destinations before writing. Ask for an address only if recovery fails.
+- Inspect connected tool capabilities early: identity, repository reads, remote commits, repository creation, Pages configuration, deployment checks. The first rehearsal had commits but no repository-creation or Pages-settings tools. Do not assume that inventory remains the same or promise unsupported operations.
+- Default a new personal portfolio to the account's exact lowercased username.github.io repository and https://username.github.io/. Arbitrary names give project URLs, not an arbitrary account-site name. Identify the owner through supported tools, or ask for the username once if ambiguous. Preserve an existing account website/custom domain; confirm before replacement or settings changes.
+- Save the destination before upload. If creation is unavailable, provide a prefilled creation URL and START-HERE Step 7 instructions. Prefer Add README to initialize main. An entirely empty repository may require an initialization commit before the full site commit; explain it rather than treating one-commit batching as a hard requirement.
+- Authorization as a user, GitHub App installation, selected repositories, and granted app permissions are distinct. A successful read or user admin/push metadata does not establish app write access. Ask the participant to confirm the app installation on the owner account and website repository selection. Record write access as unverified until an authorized write succeeds.
+- On 403, inspect available error evidence for installation/repository access, app write permissions, and relevant branch restrictions. Explain the likely issue and one next action; do not repeatedly retry the same write or silently change authentication methods. Never request tokens in chat.
 
-## Publishing record — AI maintains this; participant does not fill it in
+## Publication through connected tools
 
-- GitHub account/owner: not set
-- Repository name: not set
-- Repository URL (write destination): not set
+1. Require explicit approval of the preview and publication request. Inspect remote content and current head before writing; preserve unrelated and intervening changes. Confirm replacement of an existing website. Before enabling root publication on an existing repository, identify any internal/source files that would become website-accessible, explain the needed cleanup, and obtain approval for removals or a different publishing arrangement; do not blindly expose them.
+2. New website-only user-site default: main + /(root). Upload only the files inside local site/ to remote root, including index.html and .nojekyll. Never upload MY-RESUME.md, other source résumés, CONTENT.md, AGENTS.md, DESIGN.md, sample sources, reference briefs, guides, or the starter archive. Keep them outside local site/.
+3. If a confirmed existing project deliberately uses /docs, retain that mapping and Pages setting. Do not silently migrate root↔/docs, overwrite custom-domain configuration, or create another repository after failure. Root naming and publishing folder are separate choices.
+4. Make relevant remote commits via connected GitHub tools. Prefer a complete site commit after initialization. Read back or otherwise verify uploaded public files where tools permit.
+5. Configure Pages via a supported tool if present. If absent, give the exact Settings → Pages URL and ask the participant to select Deploy from a branch, main, and /(root) for the new default, then Save. Use the saved folder for an existing confirmed setup. No browser automation or CLI fallback.
+6. Branch-based Pages automatically republishes changes in the selected folder after commits. Do not add custom workflow YAML for this no-build site. A future build requirement is a separate decision.
+7. Record upload result/commit, deployment status, and live-content verification separately. A successful commit is not a deployment; successful deployment is not proof a network-blocked live fetch saw the new content. Use available deployment tools and read-only network fetching. Explain a needed network approval separately; mark unperformed checks honestly.
+8. Give the live URL and mention possible propagation delay (GitHub documents up to 10 minutes). Verify current expected content and referenced assets where access allows. Do not continually redeploy or declare failure just because an old cached page appears immediately.
+9. Save the publishing record locally. Internal instructions are not uploaded into the root-published site.
+
+## Later updates: propose → approve → preview → approve publication
+
+- Read local AGENTS.md, CONTENT.md, DESIGN.md and the current chosen source. Inspect the saved remote website where available before proposing edits; preserve website-only edits and intervene if remote changes conflict.
+- Compare updated résumé facts against approved website content. Summarize additions/changes/removals and uncertainties, distinguishing factual updates from wording changes. Do not infer deliberate deletion merely because a fact is absent from a shorter résumé. Propose revised concise copy in the saved personality; do not modify approved files or upload until the participant accepts the proposal.
+- After content approval, update CONTENT.md and the local site; preview/check using the saved method. Do not upload until preview/publication approval arrives.
+- After publication approval, use saved repository/branch/mapping. Check for intervening changes, commit only approved public changes, then report upload/deployment/live-verification states and saved link. Never ask for saved URLs again, silently change destination, or create a replacement repository.
+- If the local record is lost, recover the destination through available connected account/repository evidence and confirm ambiguity before writing. Internal records are intentionally not public website assets.
+
+## Local publishing record — AI maintains; participant does not fill in
+
+- Source file/mode: not selected
+- GitHub owner/account: not set
+- Repository name and URL (write destination): not set
+- Local public folder: site/
+- Remote publishing folder: / (new website-only default; confirm existing sites)
 - Branch: main
-- Public website folder: /docs
 - Publishing method: GitHub Pages, deploy from branch
+- GitHub App installation/repository selection: not checked
+- App write access: unverified (do not infer from reads/user permissions)
+- Creation/Pages tool limitations and completed manual steps: not checked
 - Pages settings URL: not set
-- Live website URL (verification destination): not yet known
+- Live website URL (read/verification destination): not yet known
+- Last upload commit/result: none
 - Deployment status: not configured
-- Last verified live version/commit and date: none
+- Live-content verification status and date/version: not verified
+- Saved preview method and checks: not selected

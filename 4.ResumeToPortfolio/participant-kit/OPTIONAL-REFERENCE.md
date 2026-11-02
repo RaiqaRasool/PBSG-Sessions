@@ -33,17 +33,17 @@ Otherwise use my supplied screenshot and available browser tools. Never claim ex
 
 Save references/custom.md with: source URL and review context; observed visuals; extracted font/color values with evidence; personality and writing-style interpretation; proposed implementation tokens and system-font fallbacks; one-page layout and résumé presentation; proposed phone/reduced-motion behavior; and unresolved details. Distinguish observed/extracted facts, interpretations, and proposed choices. Keep it self-contained so later use requires no Firecrawl or live-site access.
 
-Use the format of one prepared reference brief as a guide. Do not copy the reference owner's personal content or assets. No new sections or pages are required by the reference. Record the custom choice in DESIGN.md. Do not rebuild or publish my website yet.
+Use the format of one prepared reference brief as a guide. Do not copy the reference owner's personal content or assets. No new sections or pages are required by the reference. Record the custom choice in DESIGN.md and propose personality-shaped revisions to CONTENT.md for approval before implementation. Do not overwrite approved copy, rebuild, or publish my website yet.
 ```
 
 **Expected result:** AI saves `references/custom.md`, with enough instructions to use later and honest notes about any unknowns. If it cannot inspect a site or screenshot, choose a prepared option rather than treating a guessed brief as finished.
 
 ## Build from the new file
 
-When you are happy with the brief, send:
+When you have approved both the custom brief and its personality-shaped copy, send:
 
 ```text
-Build my portfolio using references/custom.md and approved CONTENT.md. Follow AGENTS.md, preserve my saved publishing destination, and keep the one-page defaults. Open and check the preview. Do not publish yet.
+Build my portfolio using references/custom.md and the personality-shaped CONTENT.md I approved. Follow AGENTS.md, preserve the saved publishing destination, and keep the one-page defaults. Use readable formatted files and the existing preview method without requiring extra browser tooling. Compare the defining visual/personality cues and report any checks you could not perform. Do not publish yet.
 ```
 
 You can now reuse the local custom brief without Firecrawl. Publish through the normal Step 8 prompt when you approve the preview.

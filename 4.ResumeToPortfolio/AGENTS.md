@@ -30,11 +30,19 @@ Build a usable personal portfolio from Rasool's own résumé, then use the teste
 - Check deployment status and the live result before reporting publication as complete. Explain authentication or permission steps plainly.
 - For later updates, inspect the current repository first, preserve approved design unless a redesign is requested, and keep editable content consistent with the site.
 
+## Rehearsal v0.9 decisions
++- Use MY-RESUME.md as the standard real input, with the fictional sample presented afterward as backup. Do not depend on @ mention UI or ask for pasted résumé content as the main initial path.
++- Revise content for the selected personality and obtain approval before building. Require short skimmable copy, readable formatted HTML/CSS, and a visible comparison against the defining design cues.
++- New website-only default: local public site/ uploaded to remote username.github.io root, main + /(root). Do not upload internal instructions/content/source files. Preserve existing confirmed /docs or domain configurations unless migration is approved.
++- Use connected GitHub tools for remote operations; no implicit browser automation/CLI fallback. Check actual capabilities and GitHub App installation/repository access separately from user account rights. Give known manual steps upfront.
++- Require no extra preview plugin/server setup: use available native preview or direct local index.html. Sites is an optional separate workflow. Use a mobile toggle only when the menu needs it.
++- Update flow: source edit → proposed diff → content approval → preview → publication approval. Save destination and mapping locally; report upload, deployment, and live verification as separate states.
+
 ## Workshop evidence
 - Record actual setup requirements and problems encountered during the practice run in BRIEF.md.
 - Do not promise authentication-only publishing until repository setup, Pages configuration, and a subsequent update have been tested.
 - Prefer explicit update prompts over résumé watchers or automatic regeneration hooks.
-- Write participant instructions assuming no knowledge of GitHub, Pages, project folders, or agent files. Start with the workshop link, give numbered clicks and expected results, and include recovery steps.
+- Write participant instructions assuming no knowledge of GitHub, Pages, project folders, or agent files. Start directly at START-HERE with the kit download; link existing illustrated/video setup resources, give numbered actions and expected results, and include recovery steps.
 - Maintain participant-kit/ separately from facilitator instructions; package only participant files into portfolio-starter.zip. Never include private résumés.
 - For each reference link, explain design qualities and a possible presentation of the participant's résumé; reassure that little content is enough. Keep a few quick starting suggestions to reduce choice overload.
 - Make prepared local design/personality briefs the default. Include source evidence, interpreted personality, proposed implementation tokens, font fallbacks, layout, and résumé adaptation. No participant Firecrawl setup, source-site fetch, or screenshot is required for prepared options. Keep original URLs for optional exploration.

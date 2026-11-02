@@ -47,7 +47,7 @@ Keep one page with an introduction and only useful sections supported by the cho
 
 ## Phone, motion, and accessibility — proposed behavior
 
-- Stack columns and panels below 760px; keep navigation visible as wrapping anchor links. Avoid sticky sidebars on phones.
+- Stack columns and panels below 760px; prefer visible wrapping anchor links when they fit. If navigation genuinely needs a toggle, follow AGENTS.md keyboard/ARIA/no-JavaScript requirements. Avoid sticky sidebars on phones.
 - Keep body text readable without horizontal scrolling. Reduce heading size naturally with the clamp rule.
 - Use visible keyboard focus, descriptive links, semantic headings, and sufficient text contrast. Verify these in the built site.
 - Default to no motion except short hover/focus feedback; respect prefers-reduced-motion. Never hide content behind hover or animation.
@@ -59,4 +59,4 @@ Avoid invented social proof, audience counters, fake testimonials, unsupported c
 
 ## Build verification
 
-Compare the generated preview to the observed cues and the chosen personality above. Check desktop and phone layouts, keyboard access, links, actual font fallbacks, and the approved content. Verify the site itself; no reference-site browsing or Firecrawl access is required for this prepared option. Record adaptations in DESIGN.md.
+Before building, revise the draft copy in this personality and obtain approval under AGENTS.md. Record 3–5 visual cues and 2–3 personality traits in DESIGN.md. Compare the generated preview to those specific cues and traits, fixing material mismatches before handoff; report any visual comparison you could not perform. Check desktop and phone layouts, keyboard access, links, actual font fallbacks, and the approved content. Verify the site itself; no reference-site browsing or Firecrawl access is required for this prepared option. Record adaptations in DESIGN.md.
