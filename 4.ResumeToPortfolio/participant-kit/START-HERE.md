@@ -1,17 +1,23 @@
 # From résumé to portfolio
 
-You’ll make a one-page website on your computer, open it in a browser, and revise it by talking to Codex. If you want a public link, the optional publishing guide takes you to `https://YOUR-USERNAME.github.io/`.
+You’ll make a one-page website on your computer, open it in a browser, and revise it by talking to Codex, the AI coding assistant in the ChatGPT desktop app. You’ll describe what you want and Codex will create the website files. If you want a public link, the optional publishing guide takes you to `https://YOUR-USERNAME.github.io/`.
 
 ## 1. Make a folder for your résumé
 
 1. On a Mac, open **Finder**. On Windows, open **File Explorer**.
 2. Go to **Documents**. On Mac, choose **File → New Folder**. On Windows, choose **New → Folder**. Name it `my-portfolio`.
-3. Copy your résumé into that folder. Start with the file you have. A text-based PDF or a Word document is fine to try. If Codex can’t read it accurately, open it yourself, copy the text into a plain-text editor, and save it in that folder as `resume.txt`. On Mac, use TextEdit and choose **Format → Make Plain Text** before saving. On Windows, use Notepad. If you can’t select text in your PDF, try the original Word document or the sample below.
+3. Put a text version of your résumé in that folder. A Markdown file is a plain-text document with an `.md` ending.
+   - **If you have a PDF**, open the converter, click **Select File**, choose your PDF, then click **Convert**. Download the `.md` file when it’s ready. Find it in **Downloads** and copy it into **Documents → my-portfolio**. Upload only a copy you’re comfortable sharing with the conversion service. [CloudConvert PDF to Markdown](https://cloudconvert.com/pdf-to-md)
+   - **If you already have an `.md` file**, copy it into `my-portfolio` and skip conversion.
+   - **If you have a Word document, prefer to skip the upload, or the result looks wrong**, copy the résumé text into Notepad on Windows or TextEdit on Mac. In TextEdit, choose **Format → Make Plain Text** before saving. Save it as `resume.txt` inside `my-portfolio`. If your PDF is a scan and you can’t select its text, try the original document or the sample below.
+   - Open the text file and check that the names, dates, and sections came through before moving on.
 4. If you have a screenshot you like, copy it into the same folder. You can also paste a website address into the chat or describe a look in your own words. A reference is optional.
 
 **No résumé handy?** Open the [fictional sample résumé](SAMPLE-RESUME.md) and use **Raw** on GitHub to open the plain text. Copy it into TextEdit or Notepad and save it as `sample-resume.txt` in your folder. If you already downloaded and unpacked the starter, the sample is included. Tell Codex you’re using the fictional sample.
 
 ## 2. Open your folder in Codex
+
+Use the desktop app for this workshop so Codex can work with the files in your local folder. The facilitator will show the setup screens during the session.
 
 1. Install the **ChatGPT desktop app** for your Mac or Windows computer if you need it. Open it and sign in to your ChatGPT account. Use the illustrated official quickstart if you need help finding the download or opening Codex. [OpenAI desktop quickstart](https://learn.chatgpt.com/docs/quickstart?setup=app)
 2. In the app, open **Projects** and create a **local project** for this workshop. Select your `my-portfolio` folder. If the project is already open and you still need to connect the folder, open its menu and choose **Edit project → Add folder**. If more than one folder is connected, use **Make primary** on `my-portfolio`. [OpenAI guide to local projects](https://learn.chatgpt.com/docs/projects#use-local-projects-for-folders-and-codebases)

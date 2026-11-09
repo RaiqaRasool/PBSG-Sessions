@@ -32,7 +32,7 @@ Build a usable personal portfolio from Rasool's own résumé, then use the teste
 
 ## Current workshop workflow
 
-- Use a fresh local folder with a résumé and optional screenshot, URL, or description. Try the original résumé first and provide a plain-text fallback. Let the design conversation continue until there is enough direction for a proposal.
+- Use a fresh local folder with a Markdown or plain-text résumé and optional screenshot, URL, or description. Use a Markdown résumé for the main path, with a plain-text fallback. Let the design conversation continue until there is enough direction for a proposal.
 - Generate readable HTML and CSS, plus a classic script only when needed, inside portfolio/. Keep the private inputs outside that folder. Verify the site by opening index.html directly.
 - Keep Git and GitHub optional. For participants who want a public site, document the manual GitHub Desktop and Pages path. Use username.github.io with the public site files at the repository root, and preserve any existing site unless its owner approves changes.
 - Start at participant-kit/START-HERE.md. Keep publishing setup in participant-kit/PUBLISH.md and include the fictional sample. Link illustrated vendor instructions and give numbered actions, expected results, and recovery steps.
