@@ -1,6 +1,6 @@
 # Workshop walkthrough
 
-Send participants directly to [the beginner guide](participant-kit/START-HERE.md). Use a fresh project folder for the rehearsal and keep the workshop repository separate from the public example site.
+Send participants directly to [the beginner guide](START-HERE.md). Use a fresh project folder for the rehearsal and keep the workshop repository separate from the public example site.
 
 | Time | Activity |
 | --- | --- |
@@ -11,6 +11,6 @@ Send participants directly to [the beginner guide](participant-kit/START-HERE.md
 | 10 minutes | Demonstrate a GitHub Desktop update to a prepared account site. |
 | 10 minutes | Questions and optional publishing help. |
 
-The live update demo uses a prepared site so the workshop can continue while Pages deploys. The full one-time setup is in [the publishing guide](participant-kit/PUBLISH.md).
+The live update demo uses a prepared site so the workshop can continue while Pages deploys. The full one-time setup is in [the publishing guide](PUBLISH.md).
 
 Use the [release checklist](RELEASE-CHECKLIST.md) before sharing the link with attendees.

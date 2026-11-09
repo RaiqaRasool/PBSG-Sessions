@@ -13,7 +13,7 @@ You’ll make a one-page website on your computer, open it in a browser, and rev
    - Open the text file and check that the names, dates, and sections came through before moving on.
 4. If you have a screenshot you like, copy it into the same folder. You can also paste a website address into the chat or describe a look in your own words. A reference is optional.
 
-**No résumé handy?** Open the [fictional sample résumé](SAMPLE-RESUME.md) and use **Raw** on GitHub to open the plain text. Copy it into TextEdit or Notepad and save it as `sample-resume.txt` in your folder. If you already downloaded and unpacked the starter, the sample is included. Tell Codex you’re using the fictional sample.
+**No résumé handy?** Open the [fictional sample résumé](SAMPLE-RESUME.md) and use **Raw** on GitHub to open the plain text. Copy it into TextEdit or Notepad and save it as `sample-resume.txt` in your folder. Tell Codex you’re using the fictional sample.
 
 ## 2. Open your folder in Codex
 
@@ -25,7 +25,7 @@ Use the desktop app for this workshop so Codex can work with the files in your l
 
 ## 3. Paste this into the chat
 
-Copy the whole box. If you have a reference URL, paste it at the end before sending.
+Copy the whole box. If you have a design reference, fill in the last line. For a screenshot, give the filename you copied into your folder and say what you like about it, for example, “Use the colors and large headings in screenshot.png.” For a website, paste its address and mention what caught your eye. You can leave the line blank.
 
 ```text
 Help me turn the résumé in this folder into a one-page portfolio website.
@@ -39,6 +39,8 @@ After I approve, create the website files in a folder named portfolio. Put the p
 Make the complete page work by double-clicking index.html in a browser. Use relative paths for styles, scripts, and local images. Use plain HTML and CSS and a classic script tag if needed. Avoid JavaScript modules, fetch calls for local content, a build step, or a server. Use responsive layouts and check links, keyboard access, and readability.
 
 Check the actual file in a browser if available and tell me which file to open. If you could only inspect the code, say so and tell me how to check it myself. Keep this local. I’ll handle Git and publishing separately if I choose to publish.
+
+Optional design reference: [screenshot filename, website address, or description, plus what I like about it]
 ```
 
 Answer in everyday language. “I want it to feel like a field notebook, and I want my research to come first” is enough to start. When Codex proposes the copy and direction, check names, dates, claims, and contact details. Ask for changes or tell it to build.

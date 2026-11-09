@@ -6,7 +6,7 @@
 - Let people bring a screenshot, a URL, a description, or no reference. Ask follow-up questions as needed and confirm the copy, public details, and direction before building.
 - Build a one-page portfolio with readable HTML and CSS and optional JavaScript. Participants can open it directly in a browser and make changes through chat.
 - Keep publication optional. Use GitHub Desktop and the participant’s own public account site at username.github.io. Keep private source files outside the repository.
-- Use [the beginner guide](participant-kit/START-HERE.md) and [the optional publishing guide](participant-kit/PUBLISH.md) as the participant entry points.
+- Use [the beginner guide](START-HERE.md) and [the optional publishing guide](PUBLISH.md) as the participant entry points.
 
 ## Rehearsal evidence
 

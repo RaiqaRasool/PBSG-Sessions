@@ -6,5 +6,4 @@
 - [ ] Follow PUBLISH with a new account-site repository. Confirm the only committed files are public, index.html is at the root, and the live site works at the bare username.github.io address.
 - [ ] Rehearse one later edit through GitHub Desktop. Check Pages deployment status and verify the change at the same address.
 - [ ] Record timings, app versions, screenshots, and unresolved steps in TEST-LOG.md.
-- [ ] Rebuild and verify the participant ZIP with `python3 scripts/package-starter.py`. It should include only the two guides and fictional sample.
-- [ ] Review the workshop repository and history for private source material before sharing. After an authorized push, check the guide and optional download while signed out.
+- [ ] Review the workshop repository and history for private source material before sharing. After an authorized push, check the guide, sample résumé, and publishing guide while signed out.
