@@ -6,15 +6,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 KIT = ROOT / "participant-kit"
-FILES = [
-    "AGENTS.md", "DESIGN-OPTIONS.md", "START-HERE.md", "OPTIONAL-REFERENCE.md",
-    "SAMPLE-RESUME.md", "SETUP.md", "CLAUDE.md", "GEMINI.md",
-    "references/README.md", "references/sean-halpin.md",
-    "references/brittany-chiang.md", "references/cassidy-williams.md",
-    "references/maggie-appleton.md", "references/nicky-case.md",
-    "references/lynn-fisher.md", "references/josh-comeau.md",
-    "references/ram-maheshwari.md",
-]
+FILES = ["START-HERE.md", "PUBLISH.md", "SAMPLE-RESUME.md"]
 
 for name in FILES:
     path = KIT / name

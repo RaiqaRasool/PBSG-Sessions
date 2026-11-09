@@ -1,3 +1,5 @@
+> Historical record of rehearsal v0.9. See [the current workshop guide](participant-kit/START-HERE.md) for the revised workflow.
+
 # Rehearsal feedback decisions — v0.9
 
 Input: THINGSCANBEIMPROVED.md, supplied by the facilitator. The original notes are left unchanged. Results described there are user-reported rehearsal evidence, not checks repeated by this planning chat.

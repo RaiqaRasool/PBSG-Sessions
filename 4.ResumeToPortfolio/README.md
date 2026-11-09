@@ -1,20 +1,7 @@
-# From résumé to live portfolio
+# From résumé to portfolio with AI
 
-Give AI your résumé, choose a look, review the result, and publish a personal website. No coding, Git installation, or terminal commands are required by the planned workflow.
+**[Start the workshop guide](participant-kit/START-HERE.md).** Put your résumé in a folder, talk through a design with Codex, and open the resulting website in your browser. The guide starts with folder and app setup and includes prompts you can copy.
 
-**Rehearsal draft v0.9:** revised after the first reported rehearsal; the revised journey needs retesting. Facilitator: complete [the release checklist](RELEASE-CHECKLIST.md) before sharing this page.
+If you want to share your site, follow [the optional publishing guide](participant-kit/PUBLISH.md) to put it at `https://YOUR-USERNAME.github.io/`. You can also [download the guides and fictional sample résumé](portfolio-starter.zip) for offline reference.
 
-## Start here
-
-Open [the step-by-step guide](participant-kit/START-HERE.md). Follow it from the top and keep it open beside your AI app. It includes a starter download, a fictional sample résumé if you need one, a separate setup/resource guide, eight prepared design/personality choices, an optional custom-reference guide, and prompts to copy.
-
-The prepared choices need no Firecrawl setup. Codex reads the supplied local briefs; original website links are optional inspiration.
-
-## What the names mean
-
-- **GitHub:** the service that will store your public website files.
-- **Repository:** GitHub's name for an online project folder.
-- **GitHub Pages:** the feature that turns those files into a website people can visit.
-- **Codex:** the AI coding assistant used for this workshop.
-
-You do not need to learn these systems in depth. The guide tells you what to click and what to ask AI to do.
+Facilitator rehearsal draft. See the [workshop plan](WORKSHOP.md) and [release checklist](RELEASE-CHECKLIST.md).

@@ -25,30 +25,16 @@ Build a usable personal portfolio from Rasool's own résumé, then use the teste
 ## Design and delivery
 - Use approved references as inspiration for an original design. Record references and the specific qualities to borrow in DESIGN.md.
 - Check desktop and mobile layouts, navigation, links, keyboard access, readable contrast, and reduced-motion behavior when animation is present.
-- GitHub Pages is the intended hosting target. Verify asset paths work under a repository subpath.
+- For optional publication, use the account site at username.github.io. Verify relative asset paths locally and on the live site.
 - Building a preview does not itself authorize publishing. When the user requests publication or an update-and-publish, handle the necessary relevant commits and GitHub operations within that scope.
 - Check deployment status and the live result before reporting publication as complete. Explain authentication or permission steps plainly.
 - For later updates, inspect the current repository first, preserve approved design unless a redesign is requested, and keep editable content consistent with the site.
 
-## Rehearsal v0.9 decisions
-+- Use MY-RESUME.md as the standard real input, with the fictional sample presented afterward as backup. Do not depend on @ mention UI or ask for pasted résumé content as the main initial path.
-+- Revise content for the selected personality and obtain approval before building. Require short skimmable copy, readable formatted HTML/CSS, and a visible comparison against the defining design cues.
-+- New website-only default: local public site/ uploaded to remote username.github.io root, main + /(root). Do not upload internal instructions/content/source files. Preserve existing confirmed /docs or domain configurations unless migration is approved.
-+- Use connected GitHub tools for remote operations; no implicit browser automation/CLI fallback. Check actual capabilities and GitHub App installation/repository access separately from user account rights. Give known manual steps upfront.
-+- Require no extra preview plugin/server setup: use available native preview or direct local index.html. Sites is an optional separate workflow. Use a mobile toggle only when the menu needs it.
-+- Update flow: source edit → proposed diff → content approval → preview → publication approval. Save destination and mapping locally; report upload, deployment, and live verification as separate states.
+## Current workshop workflow
 
-## Workshop evidence
-- Record actual setup requirements and problems encountered during the practice run in BRIEF.md.
-- Do not promise authentication-only publishing until repository setup, Pages configuration, and a subsequent update have been tested.
-- Prefer explicit update prompts over résumé watchers or automatic regeneration hooks.
-- Write participant instructions assuming no knowledge of GitHub, Pages, project folders, or agent files. Start directly at START-HERE with the kit download; link existing illustrated/video setup resources, give numbered actions and expected results, and include recovery steps.
-- Maintain participant-kit/ separately from facilitator instructions; package only participant files into portfolio-starter.zip. Never include private résumés.
-- For each reference link, explain design qualities and a possible presentation of the participant's résumé; reassure that little content is enough. Keep a few quick starting suggestions to reduce choice overload.
-- Make prepared local design/personality briefs the default. Include source evidence, interpreted personality, proposed implementation tokens, font fallbacks, layout, and résumé adaptation. No participant Firecrawl setup, source-site fetch, or screenshot is required for prepared options. Keep original URLs for optional exploration.
-- Put custom-reference preparation and optional Firecrawl connection in participant-kit/OPTIONAL-REFERENCE.md. New custom briefs must distinguish observations, interpretations, and proposals. Do not require payment or manual MCP setup.
-- Rebuild the participant archive with scripts/package-starter.py after kit edits. Its explicit allowlist excludes private résumés, facilitator files, and participant-created custom files.
-- Reassure participants that reference sites provide design/personality only, not required content volume or page count. Default to résumé-derived one-page sections, omit empty sections, and allow optional changes without an intake questionnaire.
-- Store the repository write destination, verified live website URL, branch, folder, and publishing method in participant AGENTS.md. Update prompts must use that record without requesting URLs again.
-- Complete RELEASE-CHECKLIST.md before calling the kit ready for attendees. Local commits do not publish download links.
-- Participants should not need to install Git, configure a Git identity, initialize repositories, or run terminal commands. Use connected GitHub tools for remote commits and publishing where supported. Resolve missing capabilities during rehearsal rather than adding Git setup to the participant instructions.
+- Use a fresh local folder with a résumé and optional screenshot, URL, or description. Try the original résumé first and provide a plain-text fallback. Let the design conversation continue until there is enough direction for a proposal.
+- Generate readable HTML and CSS, plus a classic script only when needed, inside portfolio/. Keep the private inputs outside that folder. Verify the site by opening index.html directly.
+- Keep Git and GitHub optional. For participants who want a public site, document the manual GitHub Desktop and Pages path. Use username.github.io with the public site files at the repository root, and preserve any existing site unless its owner approves changes.
+- Start at participant-kit/START-HERE.md. Keep publishing setup in participant-kit/PUBLISH.md and include the fictional sample. Link illustrated vendor instructions and give numbered actions, expected results, and recovery steps.
+- Rebuild portfolio-starter.zip with scripts/package-starter.py after kit edits. Keep its allowlist limited to the participant guides and fictional sample.
+- Record rehearsal evidence and complete RELEASE-CHECKLIST.md before sharing the workshop guide with attendees.

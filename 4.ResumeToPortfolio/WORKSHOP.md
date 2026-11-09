@@ -1,11 +1,16 @@
 # Workshop walkthrough
 
-Version 0.9 — beginner-first rehearsal draft.
+Send participants directly to [the beginner guide](participant-kit/START-HERE.md). Use a fresh project folder for the rehearsal and keep the workshop repository separate from the public example site.
 
-Open START-HERE directly for the next rehearsal; it begins with the kit download. The participant guide is [participant-kit/START-HERE.md](participant-kit/START-HERE.md), also included in the starter download. Maintain that file as the single source of participant instructions.
+| Time | Activity |
+| --- | --- |
+| 10 minutes | Show the original résumé and finished portfolio. Explain what participants need to start. |
+| 20 minutes | Demonstrate the conversation, copy review, and opening the local site in a browser. |
+| 25 minutes | Let participants build with their résumé or the fictional sample. |
+| 15 minutes | Invite critique and make one visible revision together. |
+| 10 minutes | Demonstrate a GitHub Desktop update to a prepared account site. |
+| 10 minutes | Questions and optional publishing help. |
 
-The kit contains a click-by-click guide, participant agent instructions, eight prepared local design/personality briefs, an optional custom-reference guide, and a clearly fictional sample résumé. It contains no facilitator instructions or résumé.
+The live update demo uses a prepared site so the workshop can continue while Pages deploys. The full one-time setup is in [the publishing guide](participant-kit/PUBLISH.md).
 
-Complete [RELEASE-CHECKLIST.md](RELEASE-CHECKLIST.md) before distributing the GitHub entry link. A local commit does not publish the guide or download.
-
-Feedback decisions and adjustments are recorded in [REVIEW-DECISIONS.md](REVIEW-DECISIONS.md). Version 0.9 uses MY-RESUME.md, personality-copy approval, local site/ → remote root, explicit GitHub App access, and staged update approvals.
+Use the [release checklist](RELEASE-CHECKLIST.md) before sharing the link with attendees.
