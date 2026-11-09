@@ -6,4 +6,4 @@ Codex is the AI coding assistant in the ChatGPT desktop app. You’ll give it yo
 2. **[Jump to Codex setup](START-HERE.md#2-open-your-folder-in-codex)** if your résumé is ready. The facilitator will walk through the desktop screens during the session.
 3. **[Publish your site if you want a public link](PUBLISH.md)** at `https://YOUR-USERNAME.github.io/`.
 
-Facilitator rehearsal draft. See the [workshop plan](WORKSHOP.md) and [release checklist](RELEASE-CHECKLIST.md).
+Facilitator rehearsal draft.
