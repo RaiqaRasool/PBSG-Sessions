@@ -2,9 +2,7 @@
 
 Follow the Cookie Shop tutorial to set up Codex, open a project folder, and preview a site in the app. You can build the game as shown or swap in your own résumé to make a portfolio. Both paths end with a live website at `https://YOUR-USERNAME.github.io/`.
 
-[Open the Cookie Shop tutorial video](https://www.youtube.com/watch?v=7XzjQa8z0uc) · [ChatGPT desktop setup help](https://learn.chatgpt.com/docs/quickstart?setup=app)
-
-<!-- Add the public workshop blog URL as the primary tutorial link when it is available. -->
+[Follow the Cookie Shop tutorial on VideoToBlog](https://videotoblog.ai/share/jrVWl38Gw2wAlp9P71La) · [ChatGPT desktop setup help](https://learn.chatgpt.com/docs/quickstart?setup=app)
 
 Before the workshop, install the ChatGPT desktop app, sign in, and confirm you can open Codex. Have a GitHub account ready for the publishing step.
 
