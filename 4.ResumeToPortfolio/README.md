@@ -24,7 +24,7 @@ If you already have a Markdown résumé, copy it into the project folder and nam
 ### Portfolio prompt
 
 ```text
-I’ve opened a new folder containing resume.md. Use the Git available in the workspace to initialize a local repository here with main as the initial branch. If this folder is already inside a different repository, ask me to open a separate project folder before committing. After I approve the design and you’ve built and checked the first working version, commit the website files. Make a separate local commit for each completed revision I request. Stage website files by name and keep resume.md, reference screenshots, and private notes out of every commit. Wait for my approval before pushing to GitHub.
+I’ve opened a new folder containing resume.md. Use the Git available in the workspace to initialize a local repository here with main as the initial branch. After I approve the design and you’ve built and checked the first working version, commit the website files. Make a separate local commit for each completed revision I request. Stage website files by name and keep resume.md, reference screenshots, and private notes out of every commit. Wait for my approval before pushing to GitHub.
 
 Help me turn resume.md in this folder into a one-page portfolio website.
 
