@@ -1,8 +1,12 @@
 # Build and publish a website with Codex
 
-Follow the Cookie Shop tutorial to set up Codex, open a project folder, and preview a site in the app. You can build the game as shown or swap in your own résumé to make a portfolio. Both paths end with a live website at `https://YOUR-USERNAME.github.io/`.
+Follow the main tutorial to set up Codex, open a project folder, and preview a site in the app. You can build the game shown in the tutorial or use the prompts below to build and publish a portfolio from your résumé.
 
-[Follow the Cookie Shop tutorial on VideoToBlog](https://videotoblog.ai/share/jrVWl38Gw2wAlp9P71La)
+[Open the main tutorial with video and written steps](https://videotoblog.ai/share/jrVWl38Gw2wAlp9P71La)
+
+Scan to open this workshop guide on another device.
+
+![QR code for the GitHub workshop guide](workshop-qr.png)
 
 ## 1. Choose what to build
 
