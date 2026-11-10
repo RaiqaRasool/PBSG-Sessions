@@ -4,7 +4,7 @@ Follow the Cookie Shop tutorial to set up Codex, open a project folder, and prev
 
 [Follow the Cookie Shop tutorial on VideoToBlog](https://videotoblog.ai/share/jrVWl38Gw2wAlp9P71La) · [ChatGPT desktop setup help](https://learn.chatgpt.com/docs/quickstart?setup=app)
 
-Before the workshop, install the ChatGPT desktop app, sign in, and confirm you can open Codex. Have a GitHub account ready for the publishing step.
+Before the workshop, install the ChatGPT desktop app, sign in, and confirm you can open Codex.
 
 ## 1. Choose what to build
 
@@ -33,7 +33,7 @@ Open the preview and try the result. For a portfolio, check the facts, links, an
 
 ## 2. Send the site to GitHub
 
-Follow the tutorial’s GitHub plugin setup. In Codex, open **Customize → Plugins**, find **GitHub**, and connect your account. If GitHub asks which repositories the connection can access, grant access to your website repository once it exists.
+Follow the tutorial’s GitHub plugin setup. In Codex, open **Customize → Plugins**, find **GitHub**, and follow the connection prompts. Sign in to GitHub when prompted. If you’re new to GitHub, [create a free account](https://github.com/signup), verify your email, then return to Codex and finish connecting. If GitHub asks which repositories the connection can access, grant access to your website repository once it exists.
 
 A **commit** saves a version of the website files. **Pushing** sends that version to GitHub. Paste this into your project chat once you’ve reviewed the preview.
 
