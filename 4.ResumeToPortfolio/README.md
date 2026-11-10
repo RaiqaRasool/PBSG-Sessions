@@ -19,20 +19,20 @@ If your résumé is a PDF:
 
 1. Open the [PDF-to-Markdown converter](https://cloudconvert.com/pdf-to-md), click **Select File**, and choose a PDF you’re comfortable uploading.
 2. Click **Convert**, then download the Markdown (`.md`) file when it’s ready.
-3. Open **Downloads** and copy the downloaded file into the project folder you opened in Codex. Open the file and check that your names, dates, and sections came through.
+3. Open **Downloads** and copy the downloaded file into the project folder you opened in Codex. Rename it to `resume.md` if it has a different name. Open it and check that your names, dates, and sections came through.
 
-If you already have a Markdown or plain-text résumé, copy it straight into the project folder. If you don’t have a résumé handy, save a copy of the [fictional sample résumé](SAMPLE-RESUME.md) there.
+If you already have a Markdown résumé, copy it into the project folder and name it `resume.md`. If you don’t have a résumé handy, save the [fictional sample résumé](SAMPLE-RESUME.md) there as `resume.md` and tell Codex you’re using the sample.
 
 ### Portfolio prompt
 
 ```text
-Help me turn the résumé in this folder into a one-page portfolio website.
+Help me turn resume.md in this folder into a one-page portfolio website.
 
 Ask me what you need to know about the look, who the site is for, and what I want to highlight. I can share a screenshot, a website URL, or a description. If I say “surprise me,” suggest a distinctive direction that suits my work. Use any reference as inspiration for an original design.
 
 Use my résumé as the source for factual claims and choose sections that fit my experience. Show me a short proposal for the content and design before you build. Ask before including personal contact details. If I’m using the sample résumé, clearly label the site as a fictional demo.
 
-Once I approve, create a portfolio folder with readable, formatted index.html and styles.css files. Add a separate JavaScript file only if an interaction needs it. Use relative paths so the page works when I double-click index.html, with no server or build step. Keep my original résumé and reference screenshots outside the portfolio folder.
+Once I approve, create readable, formatted index.html and styles.css files in the same folder as resume.md. Add a separate JavaScript file only if an interaction needs it. Use relative paths so the page works when I double-click index.html, with no server or build step.
 
 Show me how to open the finished page in Codex’s built-in browser. If that preview is unavailable, point me to the index.html file I can open directly.
 
@@ -52,7 +52,7 @@ Use the connected GitHub plugin to help me publish the website we just reviewed.
 
 If that repository already exists, inspect it and ask before making changes. If the plugin cannot create the repository, tell me what I need to do on GitHub and wait for me to finish. If you can access an existing repository but cannot write to it, tell me what access is missing.
 
-Prepare a short README.md for the public repository. Describe the site and include a clickable link to https://YOUR-USERNAME.github.io/ with my actual username. Say that the link will work once GitHub Pages deploys. If GitHub created a starter README, update it with this content. Show me which files will be public and ask for my approval. Then commit and send only those approved website files to main. For the portfolio, take the contents of portfolio/ and place index.html and its assets at the top level of the repository. For Cookie Shop, send the game’s site files in the same way. Keep the original résumé, reference screenshots, and private notes out of the commit. Give me the repository link and tell me whether the upload succeeded.
+Prepare a short README.md for the public repository. Describe the site and include a clickable link to https://YOUR-USERNAME.github.io/ with my actual username. Say that the link will work once GitHub Pages deploys. If GitHub created a starter README, update it with this content. Show me which files will be public and ask for my approval. Then commit and send only those approved files to main. Place index.html, README.md, and the site’s CSS, scripts, and public assets at the top level of the repository, preserving any asset paths the site uses. Leave resume.md, the original résumé, reference screenshots, and private notes out of every commit. If any of those files are already in local Git history, upload only the approved files to the remote repository without pushing that history. Give me the repository link and tell me whether the upload succeeded.
 ```
 
 **If Codex says the connected plugin can’t create a repository:** Open [New repository](https://github.com/new), select your personal account, and name it exactly `YOUR-USERNAME.github.io`. For example, if your username is `octocat`, enter `octocat.github.io`. Choose **Public**, turn on **Add README** to create the first branch, and click **Create repository**. Codex will update that starter README with your site link. Return to Codex and ask it to continue. If the connection can’t write to the repository, check its repository access. You can also use **Add file → Upload files** on GitHub to upload the approved site files. [GitHub file upload guide](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository)
